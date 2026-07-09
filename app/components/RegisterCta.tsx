@@ -9,7 +9,7 @@ export default function RegisterCta() {
         muted
         loop
         playsInline
-        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-35"
+        className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-50"
       >
         <source src="/media/network.mp4" type="video/mp4" />
       </video>
@@ -18,7 +18,7 @@ export default function RegisterCta() {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, rgba(5, 7, 15, 0.7) 0%, rgba(5, 7, 15, 0.35) 50%, rgba(5, 7, 15, 0.85) 100%), radial-gradient(50rem 26rem at 50% 100%, rgba(124, 92, 255, 0.25), transparent 70%)",
+            "linear-gradient(180deg, rgba(5, 7, 15, 0.6) 0%, rgba(5, 7, 15, 0.25) 50%, rgba(5, 7, 15, 0.8) 100%), radial-gradient(50rem 26rem at 50% 100%, rgba(124, 92, 255, 0.22), transparent 70%)",
         }}
       />
       <div
@@ -31,7 +31,7 @@ export default function RegisterCta() {
             AI for Small Business Summit
           </span>
         </h2>
-        <p className="mx-auto mt-5 max-w-2xl text-muted sm:text-lg">
+        <p className="mx-auto mt-5 max-w-2xl font-medium text-mist [text-shadow:0_1px_14px_rgba(5,7,15,0.9)] sm:text-lg">
           {SUMMIT.date} at {SUMMIT.venue}, {SUMMIT.city}. Join 200
           entrepreneurs, educators, and leaders building a Human-Centered AI
           Economy.
