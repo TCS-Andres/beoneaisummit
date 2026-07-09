@@ -1,3 +1,4 @@
+import FrostTexture from "./FrostTexture";
 const pillars = [
   {
     name: "Access",
@@ -27,8 +28,9 @@ const pillars = [
 
 export default function Pillars() {
   return (
-    <section id="pillars" className="scroll-mt-16 bg-frost text-deep">
-      <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
+    <section id="pillars" className="scroll-mt-16 relative bg-frost text-deep">
+      <FrostTexture />
+      <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
         <div data-reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
             The Strategy

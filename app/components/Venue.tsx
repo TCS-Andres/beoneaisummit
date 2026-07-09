@@ -1,9 +1,11 @@
+import FrostTexture from "./FrostTexture";
 import { SUMMIT } from "@/lib/config";
 
 export default function Venue() {
   return (
-    <section id="venue" className="scroll-mt-16 bg-frost text-deep">
-      <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
+    <section id="venue" className="scroll-mt-16 relative bg-frost text-deep">
+      <FrostTexture />
+      <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
           <div data-reveal>
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">

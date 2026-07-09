@@ -1,3 +1,4 @@
+import FrostTexture from "./FrostTexture";
 const points = [
   {
     title: "More Than a Conference",
@@ -30,7 +31,8 @@ const stats = [
 export default function Vision() {
   return (
     <section id="vision" className="relative scroll-mt-16 bg-frost text-deep">
-      <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
+      <FrostTexture />
+      <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
         <div data-reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
             The Vision
