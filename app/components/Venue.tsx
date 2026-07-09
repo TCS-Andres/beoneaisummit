@@ -1,3 +1,5 @@
+import { SplineScene } from "@/components/ui/splite";
+import { Spotlight } from "@/components/ui/spotlight";
 import { SUMMIT } from "@/lib/config";
 
 export default function Venue() {
@@ -62,19 +64,20 @@ export default function Venue() {
             </a>
           </div>
 
-          <video
+          <div
             data-reveal
             style={{ transitionDelay: "120ms" }}
-            autoPlay
-            muted
-            loop
-            playsInline
-            poster="/media/miami-poster.jpg"
-            className="aspect-[4/3] w-full rounded-2xl border border-night/10 object-cover"
-            aria-label="Aerial view of Miami Shores at sunset"
+            className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-night/10 bg-night"
           >
-            <source src="/media/miami.mp4" type="video/mp4" />
-          </video>
+            <Spotlight
+              className="-top-20 left-10 md:left-20"
+              fill="#b65eff"
+            />
+            <SplineScene
+              scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+              className="h-full w-full"
+            />
+          </div>
         </div>
 
         <div
