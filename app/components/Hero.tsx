@@ -26,23 +26,23 @@ export default function Hero() {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, rgba(10, 8, 22, 0.3) 0%, rgba(10, 8, 22, 0.1) 45%, rgba(10, 8, 22, 0.82) 100%), radial-gradient(52rem 30rem at 50% 0%, rgba(168, 116, 232, 0.18), transparent 60%)",
+            "linear-gradient(180deg, rgba(20, 22, 41, 0.3) 0%, rgba(20, 22, 41, 0.1) 45%, rgba(20, 22, 41, 0.82) 100%), radial-gradient(52rem 30rem at 50% 0%, rgba(143, 76, 255, 0.18), transparent 60%)",
         }}
       />
 
       <div className="relative mx-auto max-w-5xl px-4 pb-20 pt-16 text-center sm:px-6 sm:pt-24">
         <div data-reveal>
-          <h1 className="mx-auto max-w-4xl text-5xl font-bold leading-[1.05] [text-shadow:0_2px_24px_rgba(10,8,22,0.85)] sm:text-7xl">
+          <h1 className="mx-auto max-w-4xl text-5xl font-bold leading-[1.05] [text-shadow:0_2px_24px_rgba(20,22,41,0.85)] sm:text-7xl">
             AI for Small Business{" "}
-            <span className="bg-gradient-to-r from-glow to-[#a8c8ff] bg-clip-text text-transparent [text-shadow:none]">
+            <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent [text-shadow:none]">
               Summit 2026
             </span>
           </h1>
 
-          <p className="mx-auto mt-7 max-w-3xl text-2xl font-semibold text-white [text-shadow:0_2px_18px_rgba(10,8,22,0.9)] sm:text-3xl">
+          <p className="mx-auto mt-7 max-w-3xl text-2xl font-semibold text-white [text-shadow:0_2px_18px_rgba(20,22,41,0.9)] sm:text-3xl">
             {SUMMIT.theme}
           </p>
-          <p className="mx-auto mt-4 max-w-2xl text-lg font-medium text-mist [text-shadow:0_1px_14px_rgba(10,8,22,0.9)] sm:text-xl">
+          <p className="mx-auto mt-4 max-w-2xl text-lg font-medium text-mist [text-shadow:0_1px_14px_rgba(20,22,41,0.9)] sm:text-xl">
             {SUMMIT.tagline}. One day of keynotes, learning tracks, an
             innovation expo, and the Miami AI Debate.
           </p>
@@ -53,7 +53,7 @@ export default function Hero() {
               {...(REGISTRATION_URL
                 ? { target: "_blank", rel: "noopener noreferrer" }
                 : {})}
-              className="rounded-lg bg-gradient-to-r from-accent to-accent2 px-8 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(168,116,232,0.35)] transition-all hover:-translate-y-0.5 hover:brightness-110"
+              className="rounded-lg bg-gradient-to-r from-accent to-accent2 px-8 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(143,76,255,0.45)] transition-all hover:-translate-y-0.5 hover:brightness-110"
             >
               Register Now
             </a>

@@ -1,23 +1,25 @@
 @import "tailwindcss";
 
 @theme {
-  /* Soft lavender palette: plum-tinted night, light purple accents */
-  --color-night: #0a0816;
-  --color-navy: #120e24;
-  --color-panel: #191432;
-  --color-edge: #322a58;
-  --color-accent: #a874e8;
-  --color-accent2: #8b9cf5;
-  --color-glow: #c4b5fd;
-  --color-mist: #efebfa;
-  --color-ink: #f0edfa;
-  --color-muted: #aaa6cc;
+  /* Neon cyber palette: deep navy and dark purple bases, electric violet
+     and neon purple accents, lavender and cyan highlights */
+  --color-night: #141629;
+  --color-navy: #1d1a36;
+  --color-panel: #2a2345;
+  --color-edge: #443a6d;
+  --color-accent: #8f4cff;
+  --color-accent2: #b65eff;
+  --color-glow: #d7b6ff;
+  --color-cyan: #85e9ff;
+  --color-mist: #e9e2fa;
+  --color-ink: #f4f1ff;
+  --color-muted: #aca7cd;
 
   /* Light "frost" sections */
-  --color-frost: #f7f5fc;
-  --color-deep: #211c3d;
-  --color-slate: #5d5878;
-  --color-iris: #6c4fc9;
+  --color-frost: #f5f3fc;
+  --color-deep: #1c1836;
+  --color-slate: #545071;
+  --color-iris: #6b2fd6;
 
   --font-heading: var(--font-space-grotesk), sans-serif;
   --font-body: var(--font-inter), sans-serif;
@@ -69,7 +71,7 @@ h4 {
 
 .lift:hover {
   transform: translateY(-4px);
-  box-shadow: 0 14px 44px rgba(168, 116, 232, 0.2);
+  box-shadow: 0 14px 44px rgba(143, 76, 255, 0.28);
 }
 
 @media (prefers-reduced-motion: reduce) {

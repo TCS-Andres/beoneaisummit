@@ -18,7 +18,7 @@ export default function RegisterCta() {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "linear-gradient(180deg, rgba(10, 8, 22, 0.6) 0%, rgba(10, 8, 22, 0.25) 50%, rgba(10, 8, 22, 0.8) 100%), radial-gradient(50rem 26rem at 50% 100%, rgba(168, 116, 232, 0.22), transparent 70%)",
+            "linear-gradient(180deg, rgba(20, 22, 41, 0.6) 0%, rgba(20, 22, 41, 0.25) 50%, rgba(20, 22, 41, 0.8) 100%), radial-gradient(50rem 26rem at 50% 100%, rgba(143, 76, 255, 0.22), transparent 70%)",
         }}
       />
       <div
@@ -27,11 +27,11 @@ export default function RegisterCta() {
       >
         <h2 className="text-3xl font-bold sm:text-5xl">
           Be Part of the First{" "}
-          <span className="bg-gradient-to-r from-glow to-[#a8c8ff] bg-clip-text text-transparent">
+          <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent">
             AI for Small Business Summit
           </span>
         </h2>
-        <p className="mx-auto mt-5 max-w-2xl font-medium text-mist [text-shadow:0_1px_14px_rgba(10,8,22,0.9)] sm:text-lg">
+        <p className="mx-auto mt-5 max-w-2xl font-medium text-mist [text-shadow:0_1px_14px_rgba(20,22,41,0.9)] sm:text-lg">
           {SUMMIT.date} at {SUMMIT.venue}, {SUMMIT.city}. Join 200
           entrepreneurs, educators, and leaders building a Human-Centered AI
           Economy.
@@ -42,7 +42,7 @@ export default function RegisterCta() {
             href={REGISTRATION_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-9 inline-block rounded-lg bg-gradient-to-r from-accent to-accent2 px-9 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(168,116,232,0.35)] transition-all hover:-translate-y-0.5 hover:brightness-110"
+            className="mt-9 inline-block rounded-lg bg-gradient-to-r from-accent to-accent2 px-9 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(143,76,255,0.45)] transition-all hover:-translate-y-0.5 hover:brightness-110"
           >
             Register Now
           </a>
