@@ -35,39 +35,37 @@ export default function RegisterCta() {
             fill="#b65eff"
           />
 
-          <div className="flex flex-col md:flex-row">
-            <div className="relative z-10 flex flex-1 flex-col justify-center p-8 sm:p-12">
-              <h2 className="text-3xl font-bold sm:text-4xl">
-                The Future Is in{" "}
-                <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent">
-                  Our Hands
-                </span>
-              </h2>
-              <p className="mt-5 max-w-lg font-medium text-mist">
-                Be part of the first AI for Small Business Summit. {SUMMIT.date}{" "}
-                at {SUMMIT.venue}, {SUMMIT.city}. Join 200 entrepreneurs,
-                educators, and leaders building a Human-Centered AI Economy.
-              </p>
+          <div className="relative z-10 flex flex-col items-center px-6 pt-10 text-center sm:px-12 sm:pt-14">
+            <h2 className="text-3xl font-bold sm:text-4xl">
+              The Future Is in{" "}
+              <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent">
+                Our Hands
+              </span>
+            </h2>
+            <p className="mt-5 max-w-2xl font-medium text-mist">
+              Be part of the first AI for Small Business Summit. {SUMMIT.date} at{" "}
+              {SUMMIT.venue}, {SUMMIT.city}. Join 200 entrepreneurs, educators,
+              and leaders building a Human-Centered AI Economy.
+            </p>
 
-              {REGISTRATION_URL ? (
-                <a
-                  href={REGISTRATION_URL}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-8 inline-block self-start rounded-lg bg-gradient-to-r from-accent to-accent2 px-9 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(143,76,255,0.45)] transition-all hover:-translate-y-0.5 hover:brightness-110"
-                >
-                  Register Now
-                </a>
-              ) : (
-                <span className="mt-8 inline-block self-start rounded-lg border border-accent bg-panel px-9 py-3.5 text-lg font-semibold text-mist">
-                  Registration opens soon
-                </span>
-              )}
-            </div>
+            {REGISTRATION_URL ? (
+              <a
+                href={REGISTRATION_URL}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-8 inline-block rounded-lg bg-gradient-to-r from-accent to-accent2 px-9 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(143,76,255,0.45)] transition-all hover:-translate-y-0.5 hover:brightness-110"
+              >
+                Register Now
+              </a>
+            ) : (
+              <span className="mt-8 inline-block rounded-lg border border-accent bg-panel px-9 py-3.5 text-lg font-semibold text-mist">
+                Registration opens soon
+              </span>
+            )}
+          </div>
 
-            <div className="relative min-h-[320px] flex-1 sm:min-h-[420px]">
-              <HoloGlobe />
-            </div>
+          <div className="relative z-10 px-4 pb-8 pt-10 sm:px-10 sm:pb-10">
+            <HoloGlobe />
           </div>
         </Card>
       </div>
