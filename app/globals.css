@@ -1,23 +1,23 @@
 @import "tailwindcss";
 
 @theme {
-  /* Futuristic dark palette: deep indigo night, violet-to-blue accents */
-  --color-night: #05070f;
-  --color-navy: #0a0d20;
-  --color-panel: #10142e;
-  --color-edge: #272e55;
-  --color-accent: #7c5cff;
-  --color-accent2: #3d7bff;
-  --color-glow: #a78bfa;
-  --color-mist: #e7e6f7;
-  --color-ink: #eaecf8;
-  --color-muted: #98a0c4;
+  /* Soft lavender palette: plum-tinted night, light purple accents */
+  --color-night: #0a0816;
+  --color-navy: #120e24;
+  --color-panel: #191432;
+  --color-edge: #322a58;
+  --color-accent: #a874e8;
+  --color-accent2: #8b9cf5;
+  --color-glow: #c4b5fd;
+  --color-mist: #efebfa;
+  --color-ink: #f0edfa;
+  --color-muted: #aaa6cc;
 
   /* Light "frost" sections */
-  --color-frost: #f3f4fb;
-  --color-deep: #14172f;
-  --color-slate: #4b5273;
-  --color-iris: #5940d9;
+  --color-frost: #f7f5fc;
+  --color-deep: #211c3d;
+  --color-slate: #5d5878;
+  --color-iris: #6c4fc9;
 
   --font-heading: var(--font-space-grotesk), sans-serif;
   --font-body: var(--font-inter), sans-serif;
@@ -69,7 +69,7 @@ h4 {
 
 .lift:hover {
   transform: translateY(-4px);
-  box-shadow: 0 14px 44px rgba(124, 92, 255, 0.18);
+  box-shadow: 0 14px 44px rgba(168, 116, 232, 0.2);
 }
 
 @media (prefers-reduced-motion: reduce) {

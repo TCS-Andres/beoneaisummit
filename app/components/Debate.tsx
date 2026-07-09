@@ -6,7 +6,7 @@ export default function Debate() {
         className="pointer-events-none absolute inset-0"
         style={{
           background:
-            "radial-gradient(46rem 24rem at 50% 50%, rgba(124, 92, 255, 0.16), transparent 70%)",
+            "radial-gradient(46rem 24rem at 50% 50%, rgba(168, 116, 232, 0.16), transparent 70%)",
         }}
       />
       <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-24">
