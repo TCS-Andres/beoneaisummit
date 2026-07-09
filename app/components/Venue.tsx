@@ -28,6 +28,14 @@ export default function Venue() {
               </div>
               <div className="flex gap-3">
                 <dt className="w-20 shrink-0 font-semibold uppercase tracking-wide text-deep">
+                  Location
+                </dt>
+                <dd className="text-slate">
+                  Andreas School of Business, Rooms 111 & 112
+                </dd>
+              </div>
+              <div className="flex gap-3">
+                <dt className="w-20 shrink-0 font-semibold uppercase tracking-wide text-deep">
                   Address
                 </dt>
                 <dd className="text-slate">
@@ -39,8 +47,8 @@ export default function Venue() {
                   Details
                 </dt>
                 <dd className="text-slate">
-                  Parking, room assignments, and check-in details will be
-                  shared with registered attendees.
+                  Parking and check-in details will be shared with registered
+                  attendees.
                 </dd>
               </div>
             </dl>
