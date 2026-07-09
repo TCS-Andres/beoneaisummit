@@ -64,19 +64,30 @@ export default function Venue() {
             </a>
           </div>
 
-          <div
-            data-reveal
-            style={{ transitionDelay: "120ms" }}
-            className="relative aspect-[4/3] w-full overflow-hidden rounded-2xl border border-night/10 bg-night"
-          >
-            <Spotlight
-              className="-top-20 left-10 md:left-20"
-              fill="#b65eff"
-            />
-            <SplineScene
-              scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-              className="h-full w-full"
-            />
+          <div data-reveal style={{ transitionDelay: "120ms" }}>
+            <div className="text-center">
+              <h3 className="font-heading text-2xl font-bold sm:text-3xl">
+                Meet{" "}
+                <span className="bg-gradient-to-r from-accent to-accent2 bg-clip-text text-transparent">
+                  Barry
+                </span>
+                !
+              </h3>
+              <p className="mt-1 text-sm text-slate">
+                Your AI host for the Summit. Move your cursor, he is watching.
+              </p>
+            </div>
+
+            <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-2xl border border-night/10 bg-night">
+              <Spotlight className="-top-20 left-10 md:left-20" fill="#b65eff" />
+              <SplineScene
+                scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+                className="h-full w-full"
+              />
+              <span className="pointer-events-none absolute bottom-4 left-4 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md">
+                Barry, AI Host
+              </span>
+            </div>
           </div>
         </div>
 
