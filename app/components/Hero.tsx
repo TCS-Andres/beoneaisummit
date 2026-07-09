@@ -3,7 +3,7 @@ import { REGISTRATION_URL, SUMMIT } from "@/lib/config";
 
 const details = [
   { label: "Date", value: SUMMIT.date },
-  { label: "Venue", value: `${SUMMIT.venue}, Miami Shores` },
+  { label: "Venue", value: "Barry University, Andreas School of Business" },
   { label: "Time", value: SUMMIT.time },
 ];
 
