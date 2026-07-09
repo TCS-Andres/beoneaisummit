@@ -84,6 +84,16 @@ export default function Venue() {
                 scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
                 className="h-full w-full"
               />
+              <div
+                className="pointer-events-none absolute right-4 top-4 max-w-[62%] sm:max-w-[55%]"
+                style={{ animation: "holo-float 6s ease-in-out infinite" }}
+              >
+                <div className="relative rounded-2xl rounded-br-sm border border-white/20 bg-white/95 px-4 py-2.5 text-sm font-medium text-deep shadow-[0_8px_30px_rgba(143,76,255,0.35)] backdrop-blur-md">
+                  Hi, I&rsquo;m Barry! Welcome to the AI for Small Business
+                  Summit. So glad you&rsquo;re here.
+                  <span className="absolute -bottom-1.5 right-5 h-3 w-3 rotate-45 border-b border-r border-white/20 bg-white/95" />
+                </div>
+              </div>
               <span className="pointer-events-none absolute bottom-4 left-4 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md">
                 Barry, AI Host
               </span>
