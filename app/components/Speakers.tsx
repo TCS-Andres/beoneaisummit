@@ -27,13 +27,6 @@ const speakers = [
     bio: "Steve has spent years empowering underserved entrepreneurs in Miami-Dade. As Program Director of the BE ONE business development platform within Branches Inc., he understands the unique challenges micro-businesses face and how to overcome them.",
   },
   {
-    name: "Adriana Madrinan",
-    title: "AI-Enabled Business Model Innovation Strategist",
-    session: "The Business Model Canvas Reimagined with AI",
-    photo: "/speakers/adriana-madrinan.webp",
-    bio: "With 15+ years in corporate America and 8+ years supporting entrepreneurs across the U.S. and Latin America, Adriana helps small business owners redesign business models, clarify strategy, and build growth systems for the AI era.",
-  },
-  {
     name: "Tarik Safouan",
     title: "Director, Barry AI Center",
     session: "The AI-Enabled Small Business Lifecycle",
@@ -46,21 +39,6 @@ const speakers = [
     session: "AI-Powered Marketing for Micro-Businesses",
     photo: "/speakers/andres-diaz.webp",
     bio: "Andres helps small businesses cut through marketing noise to connect authentically with customers. His approach focuses on clarity, consistency, and maintaining trust, even while leveraging AI tools.",
-  },
-  {
-    name: "Dr. Sarah Lewis",
-    title:
-      "Founding Director, Center for Excellence in Teaching & Learning, Barry University",
-    session: "Harnessing AI for Good (Panel)",
-    photo: "/speakers/sarah-lewis.webp",
-    bio: "Dr. Lewis is a social work scholar advancing the integration of AI into higher education through principled, systems-level design, with assessment approaches that make learning visible in real time.",
-  },
-  {
-    name: "Sanjay Deo",
-    title: "Cybersecurity Expert",
-    session: "AI & Cybersecurity for Small Businesses",
-    photo: "/speakers/sanjay-deo.webp",
-    bio: "Sanjay brings essential cybersecurity expertise tailored for small businesses. He makes data protection and fraud prevention accessible, practical, and achievable for businesses without IT departments.",
   },
 ];
 
