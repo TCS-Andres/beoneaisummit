@@ -1,3 +1,18 @@
+const points = [
+  {
+    title: "More Than a Conference",
+    text: "A platform for dialogue, collaboration, learning, and action.",
+  },
+  {
+    title: "Technology That Serves Humanity",
+    text: "AI evaluated not by what it can do, but by what it enables people to become.",
+  },
+  {
+    title: "Miami Sets the Model",
+    text: "Positioning Miami-Dade as the leading example of a Human-Centered AI Economy.",
+  },
+];
+
 const framework = [
   { label: "Purpose", value: "Human Flourishing" },
   { label: "Principle", value: "Human-Centered AI" },
@@ -6,7 +21,7 @@ const framework = [
 ];
 
 const stats = [
-  { value: "200", label: "Entrepreneurs, students, educators, and civic leaders" },
+  { value: "200", label: "Entrepreneurs, educators, and civic leaders" },
   { value: "1", label: "Day of dialogue, learning, and action" },
   { value: "6", label: "Pillars for a Human-Centered AI Economy" },
   { value: "2026", label: "The first of an annual convening of minds" },
@@ -16,35 +31,33 @@ export default function Vision() {
   return (
     <section id="vision" className="relative scroll-mt-16 bg-frost text-deep">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
-          The Vision
-        </p>
-        <h2 className="mt-3 max-w-3xl text-3xl font-bold sm:text-4xl">
-          The future is not predetermined. It is ours to build.
-        </h2>
-        <div className="mt-6 grid gap-10 lg:grid-cols-[3fr_2fr]">
-          <div className="space-y-5 text-base leading-relaxed text-slate sm:text-lg">
-            <p>
-              Artificial intelligence represents one of the most significant
-              technological transformations in human history. The defining
-              question is not whether AI will transform society. It is how we
-              ensure that transformation expands opportunity, strengthens
-              communities, and contributes to broad-based prosperity.
-            </p>
-            <p>
-              The AI for Small Business Summit is more than a conference. It is
-              a platform for dialogue, collaboration, learning, and action,
-              grounded in the belief that AI should be evaluated not only by
-              what it can do, but by what it enables humanity to become.
-            </p>
-            <p>
-              Micro and small businesses are among the most important drivers
-              of innovation, ownership, and community resilience. The Summit
-              seeks to position Miami-Dade County as a leading model for
-              building a Human-Centered AI Economy, one where small businesses
-              help shape the future rather than watch it happen.
-            </p>
+        <div data-reveal>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
+            The Vision
+          </p>
+          <h2 className="mt-3 max-w-3xl text-3xl font-bold sm:text-4xl">
+            The Future Is Not Predetermined. It Is Ours to Build.
+          </h2>
+          <p className="mt-4 max-w-2xl text-lg text-slate">
+            AI is the defining transformation of our era. This Summit makes
+            sure small businesses lead it, not chase it.
+          </p>
+        </div>
+
+        <div className="mt-12 grid gap-10 lg:grid-cols-[3fr_2fr]">
+          <div className="space-y-8">
+            {points.map((p, i) => (
+              <div
+                key={p.title}
+                data-reveal
+                style={{ transitionDelay: `${i * 100}ms` }}
+              >
+                <h3 className="font-heading text-2xl font-bold">{p.title}</h3>
+                <p className="mt-1.5 text-slate">{p.text}</p>
+              </div>
+            ))}
             <video
+              data-reveal
               autoPlay
               muted
               loop
@@ -57,10 +70,12 @@ export default function Vision() {
           </div>
 
           <dl className="grid content-start gap-4">
-            {framework.map((f) => (
+            {framework.map((f, i) => (
               <div
                 key={f.label}
-                className="rounded-xl border border-night/10 bg-white/70 backdrop-blur-md px-5 py-4"
+                data-reveal
+                style={{ transitionDelay: `${i * 80}ms` }}
+                className="lift rounded-xl border border-night/10 bg-white/70 px-5 py-4 backdrop-blur-md"
               >
                 <dt className="text-xs uppercase tracking-[0.2em] text-slate">
                   {f.label}
@@ -73,7 +88,10 @@ export default function Vision() {
           </dl>
         </div>
 
-        <div className="mt-14 grid gap-6 rounded-2xl border border-night/10 bg-white/70 backdrop-blur-md p-8 sm:grid-cols-2 lg:grid-cols-4">
+        <div
+          data-reveal
+          className="mt-14 grid gap-6 rounded-2xl border border-night/10 bg-white/70 p-8 backdrop-blur-md sm:grid-cols-2 lg:grid-cols-4"
+        >
           {stats.map((s) => (
             <div key={s.label}>
               <p className="font-heading text-4xl font-bold text-iris">

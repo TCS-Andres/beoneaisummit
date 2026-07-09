@@ -29,22 +29,26 @@ export default function Pillars() {
   return (
     <section id="pillars" className="scroll-mt-16 bg-frost text-deep">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
-          The Strategy
-        </p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-          The Six Pillars Framework
-        </h2>
-        <p className="mt-4 max-w-2xl text-slate">
-          Six pillars provide the strategic foundation for building a
-          Human-Centered AI Economy.
-        </p>
+        <div data-reveal>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
+            The Strategy
+          </p>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+            The Six Pillars Framework
+          </h2>
+          <p className="mt-4 max-w-2xl text-slate">
+            Six pillars provide the strategic foundation for building a
+            Human-Centered AI Economy.
+          </p>
+        </div>
 
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
           {pillars.map((p, i) => (
             <div
               key={p.name}
-              className="group rounded-2xl border border-night/10 bg-white/70 backdrop-blur-md p-6 transition-colors hover:border-accent"
+              data-reveal
+              style={{ transitionDelay: `${i * 70}ms` }}
+              className="lift group rounded-2xl border border-night/10 bg-white/70 p-6 backdrop-blur-md hover:border-accent"
             >
               <p className="font-heading text-sm font-semibold text-iris">
                 {String(i + 1).padStart(2, "0")}

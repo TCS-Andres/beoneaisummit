@@ -69,22 +69,25 @@ export default function Agenda() {
   return (
     <section id="agenda" className="scroll-mt-16 bg-frost text-deep">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
-          September 14, 2026
-        </p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-          Program & Agenda
-        </h2>
-        <p className="mt-4 max-w-2xl text-slate">
-          A full day at Barry University, from morning expo to evening
-          reception. Times and sessions may be refined as the program is
-          finalized.
-        </p>
+        <div data-reveal>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
+            September 14, 2026
+          </p>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+            Program & Agenda
+          </h2>
+          <p className="mt-4 max-w-2xl text-slate">
+            A full day at Barry University, from morning expo to evening
+            reception. Times and sessions may be refined as the program is
+            finalized.
+          </p>
+        </div>
 
         <ol className="mt-12 space-y-0 border-l border-night/15 pl-0">
           {agenda.map((item) => (
             <li
               key={`${item.time}-${item.title}`}
+              data-reveal
               className="relative flex flex-col gap-1 py-5 pl-8 sm:flex-row sm:gap-8"
             >
               <span

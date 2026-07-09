@@ -61,22 +61,26 @@ export default function Experiences() {
   return (
     <section id="experiences" className="scroll-mt-16 bg-navy">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
-          The Experience
-        </p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-          Signature Summit Experiences
-        </h2>
-        <p className="mt-4 max-w-2xl text-muted">
-          Designed to move attendees from awareness to understanding,
-          application, and alignment.
-        </p>
+        <div data-reveal>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
+            The Experience
+          </p>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+            Signature Summit Experiences
+          </h2>
+          <p className="mt-4 max-w-2xl text-muted">
+            Designed to move attendees from awareness to understanding,
+            application, and alignment.
+          </p>
+        </div>
 
         <div className="mt-10 grid gap-6 sm:grid-cols-2">
-          {experiences.map((e) => (
+          {experiences.map((e, i) => (
             <div
               key={e.name}
-              className="group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-8 backdrop-blur-md transition-colors hover:border-accent/60"
+              data-reveal
+              style={{ transitionDelay: `${i * 80}ms` }}
+              className="lift group relative overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] p-8 backdrop-blur-md hover:border-accent/60"
             >
               <div
                 aria-hidden

@@ -7,7 +7,8 @@ export const SUMMIT = {
   theme: "Building a Human-Centered AI Economy",
   tagline: "Advancing human flourishing in the age of artificial intelligence",
   date: "September 14, 2026",
+  time: "8:30 AM to 6:00 PM",
   venue: "Barry University",
   city: "Miami Shores, Florida",
-  hosts: "Hosted by Branches BE ONE and the Barry University AI Center",
+  hosts: "Presented by Branches BE ONE and the Barry University AI Center",
 };

@@ -21,9 +21,12 @@ export default function RegisterCta() {
             "linear-gradient(180deg, rgba(5, 7, 15, 0.7) 0%, rgba(5, 7, 15, 0.35) 50%, rgba(5, 7, 15, 0.85) 100%), radial-gradient(50rem 26rem at 50% 100%, rgba(124, 92, 255, 0.25), transparent 70%)",
         }}
       />
-      <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-28">
+      <div
+        data-reveal
+        className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-28"
+      >
         <h2 className="text-3xl font-bold sm:text-5xl">
-          Be part of the first{" "}
+          Be Part of the First{" "}
           <span className="bg-gradient-to-r from-glow to-[#6ec1ff] bg-clip-text text-transparent">
             AI for Small Business Summit
           </span>
@@ -39,9 +42,9 @@ export default function RegisterCta() {
             href={REGISTRATION_URL}
             target="_blank"
             rel="noopener noreferrer"
-            className="mt-9 inline-block rounded-lg bg-gradient-to-r from-accent to-accent2 px-9 py-3.5 text-lg font-semibold text-white transition-colors hover:brightness-110"
+            className="mt-9 inline-block rounded-lg bg-gradient-to-r from-accent to-accent2 px-9 py-3.5 text-lg font-semibold text-white shadow-[0_8px_30px_rgba(124,92,255,0.35)] transition-all hover:-translate-y-0.5 hover:brightness-110"
           >
-            Register now
+            Register Now
           </a>
         ) : (
           <div className="mt-9">

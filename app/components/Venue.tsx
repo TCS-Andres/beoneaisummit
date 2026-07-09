@@ -5,7 +5,7 @@ export default function Venue() {
     <section id="venue" className="scroll-mt-16 bg-frost text-deep">
       <div className="mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
         <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
-          <div>
+          <div data-reveal>
             <p className="text-xs font-semibold uppercase tracking-[0.25em] text-iris">
               The Venue
             </p>
@@ -55,6 +55,8 @@ export default function Venue() {
           </div>
 
           <video
+            data-reveal
+            style={{ transitionDelay: "120ms" }}
             autoPlay
             muted
             loop
@@ -67,9 +69,12 @@ export default function Venue() {
           </video>
         </div>
 
-        <div className="mt-12 rounded-2xl border border-night/10 bg-white/70 backdrop-blur-md p-8">
+        <div
+          data-reveal
+          className="mt-12 rounded-2xl border border-night/10 bg-white/70 backdrop-blur-md p-8"
+        >
           <h3 className="font-heading text-xl font-semibold text-deep">
-            Who should attend
+            Who Should Attend
           </h3>
           <ul className="mt-5 grid gap-3 text-sm text-slate sm:grid-cols-2">
             {[

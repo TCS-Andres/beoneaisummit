@@ -1,4 +1,5 @@
 import Nav from "./components/Nav";
+import ScrollFx from "./components/ScrollFx";
 import Hero from "./components/Hero";
 import Vision from "./components/Vision";
 import Pillars from "./components/Pillars";
@@ -13,6 +14,7 @@ import Footer from "./components/Footer";
 export default function Home() {
   return (
     <>
+      <ScrollFx />
       <Nav />
       <main>
         <Hero />

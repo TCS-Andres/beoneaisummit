@@ -10,17 +10,23 @@ export default function Debate() {
         }}
       />
       <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-24">
-        <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
-          Signature Event · 11:00 AM
-        </p>
-        <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-          The Miami AI Debate
-        </h2>
-        <p className="mt-4 text-muted">
-          A Munk-style debate examining both the promise and the risk of
-          artificial intelligence.
-        </p>
-        <blockquote className="mt-8 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-md px-8 py-10">
+        <div data-reveal>
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
+            Signature Event · 11:00 AM
+          </p>
+          <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
+            The Miami AI Debate
+          </h2>
+          <p className="mt-4 text-muted">
+            A Munk-style debate examining both the promise and the risk of
+            artificial intelligence.
+          </p>
+        </div>
+        <blockquote
+          data-reveal
+          style={{ transitionDelay: "120ms" }}
+          className="lift mt-8 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-md px-8 py-10"
+        >
           <p className="font-heading text-2xl font-semibold leading-snug text-mist sm:text-3xl">
             &ldquo;Be it resolved: artificial intelligence will advance human
             flourishing more than it will diminish it.&rdquo;
