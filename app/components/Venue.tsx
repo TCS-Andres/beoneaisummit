@@ -80,18 +80,21 @@ export default function Venue() {
 
             <div className="relative mt-4 aspect-[4/3] w-full overflow-hidden rounded-2xl border border-night/10 bg-night">
               <Spotlight className="-top-20 left-10 md:left-20" fill="#b65eff" />
-              <SplineScene
-                scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
-                className="h-full w-full"
-              />
+              {/* Robot pushed down to leave headroom for the speech bubble */}
+              <div className="absolute inset-x-0 bottom-0 top-[18%]">
+                <SplineScene
+                  scene="https://prod.spline.design/kZDDjO5HuC9GJUM2/scene.splinecode"
+                  className="h-full w-full"
+                />
+              </div>
               <div
-                className="pointer-events-none absolute right-4 top-4 max-w-[62%] sm:max-w-[55%]"
+                className="pointer-events-none absolute left-1/2 top-3 w-[85%] -translate-x-1/2 sm:w-[78%]"
                 style={{ animation: "holo-float 6s ease-in-out infinite" }}
               >
-                <div className="relative rounded-2xl rounded-br-sm border border-white/20 bg-white/95 px-4 py-2.5 text-sm font-medium text-deep shadow-[0_8px_30px_rgba(143,76,255,0.35)] backdrop-blur-md">
+                <div className="relative rounded-2xl rounded-bl-sm border border-white/20 bg-white/95 px-4 py-2.5 text-center text-sm font-medium text-deep shadow-[0_8px_30px_rgba(143,76,255,0.35)] backdrop-blur-md">
                   Hi, I&rsquo;m Barry! Welcome to the AI for Small Business
                   Summit. So glad you&rsquo;re here.
-                  <span className="absolute -bottom-1.5 right-5 h-3 w-3 rotate-45 border-b border-r border-white/20 bg-white/95" />
+                  <span className="absolute -bottom-1.5 left-8 h-3 w-3 rotate-45 border-b border-r border-white/20 bg-white/95" />
                 </div>
               </div>
               <span className="pointer-events-none absolute bottom-4 left-4 rounded-full border border-white/15 bg-white/10 px-3 py-1 text-xs font-semibold text-white backdrop-blur-md">

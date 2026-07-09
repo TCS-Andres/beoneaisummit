@@ -1,23 +1,37 @@
-const points = [
+import {
+  Compass,
+  Eye,
+  HeartHandshake,
+  MapPin,
+  Sparkles,
+  Sprout,
+  Users,
+  type LucideIcon,
+} from "lucide-react";
+
+const points: { title: string; text: string; icon: LucideIcon }[] = [
   {
+    icon: Users,
     title: "More Than a Conference",
     text: "A platform for dialogue, collaboration, learning, and action.",
   },
   {
+    icon: HeartHandshake,
     title: "Technology That Serves Humanity",
     text: "AI evaluated not by what it can do, but by what it enables people to become.",
   },
   {
+    icon: MapPin,
     title: "Miami Sets the Model",
     text: "Positioning Miami-Dade as the leading example of a Human-Centered AI Economy.",
   },
 ];
 
-const framework = [
-  { label: "Purpose", value: "Human Flourishing" },
-  { label: "Principle", value: "Human-Centered AI" },
-  { label: "Philosophy", value: "AI for Good" },
-  { label: "Vision", value: "A Human-Centered AI Economy" },
+const framework: { label: string; value: string; icon: LucideIcon }[] = [
+  { icon: Sprout, label: "Purpose", value: "Human Flourishing" },
+  { icon: Compass, label: "Principle", value: "Human-Centered AI" },
+  { icon: Sparkles, label: "Philosophy", value: "AI for Good" },
+  { icon: Eye, label: "Vision", value: "A Human-Centered AI Economy" },
 ];
 
 const stats = [
@@ -45,15 +59,23 @@ export default function Vision() {
         </div>
 
         <div className="mt-12 grid gap-10 lg:grid-cols-[3fr_2fr]">
-          <div className="space-y-8">
+          <div className="space-y-7">
             {points.map((p, i) => (
               <div
                 key={p.title}
                 data-reveal
                 style={{ transitionDelay: `${i * 100}ms` }}
+                className="flex items-start gap-4"
               >
-                <h3 className="font-heading text-2xl font-bold">{p.title}</h3>
-                <p className="mt-1.5 text-slate">{p.text}</p>
+                <span className="flex h-12 w-12 shrink-0 items-center justify-center rounded-xl bg-accent/10 text-iris">
+                  <p.icon className="h-6 w-6" strokeWidth={1.75} />
+                </span>
+                <div>
+                  <h3 className="font-heading text-xl font-bold sm:text-2xl">
+                    {p.title}
+                  </h3>
+                  <p className="mt-1.5 text-slate">{p.text}</p>
+                </div>
               </div>
             ))}
             <video
@@ -62,7 +84,7 @@ export default function Vision() {
               muted
               loop
               playsInline
-              className="aspect-video w-full rounded-2xl border border-night/10 object-cover"
+              className="mt-1 aspect-video w-full rounded-2xl border border-night/10 object-cover"
               aria-label="An entrepreneur working with AI tools"
             >
               <source src="/media/entrepreneur.mp4" type="video/mp4" />
@@ -75,14 +97,19 @@ export default function Vision() {
                 key={f.label}
                 data-reveal
                 style={{ transitionDelay: `${i * 80}ms` }}
-                className="lift rounded-xl border border-night/10 bg-white/70 px-5 py-4 backdrop-blur-md"
+                className="lift flex items-start gap-4 rounded-xl border border-night/10 bg-white/70 px-5 py-4 backdrop-blur-md"
               >
-                <dt className="text-xs uppercase tracking-[0.2em] text-slate">
-                  {f.label}
-                </dt>
-                <dd className="mt-1 font-heading text-lg font-semibold text-deep">
-                  {f.value}
-                </dd>
+                <span className="mt-0.5 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg bg-iris/10 text-iris">
+                  <f.icon className="h-5 w-5" strokeWidth={1.75} />
+                </span>
+                <div>
+                  <dt className="text-xs uppercase tracking-[0.2em] text-slate">
+                    {f.label}
+                  </dt>
+                  <dd className="mt-1 font-heading text-lg font-semibold text-deep">
+                    {f.value}
+                  </dd>
+                </div>
               </div>
             ))}
           </dl>
@@ -90,7 +117,7 @@ export default function Vision() {
 
         <div
           data-reveal
-          className="mt-14 grid gap-6 rounded-2xl border border-night/10 bg-white/70 p-8 backdrop-blur-md sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-14 grid gap-8 rounded-2xl border border-night/10 bg-white/70 p-8 backdrop-blur-md sm:grid-cols-2 lg:grid-cols-4"
         >
           {stats.map((s) => (
             <div key={s.label}>
