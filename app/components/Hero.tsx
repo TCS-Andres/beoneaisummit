@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { REGISTRATION_URL, SUMMIT } from "@/lib/config";
+import AutoplayVideo from "./AutoplayVideo";
 
 const details = [
   { label: "Date", value: SUMMIT.date },
@@ -10,17 +11,11 @@ const details = [
 export default function Hero() {
   return (
     <section id="top" className="relative overflow-hidden pt-16">
-      <video
-        aria-hidden
-        autoPlay
-        muted
-        loop
-        playsInline
+      <AutoplayVideo
+        src="/media/hero-bg.mp4"
         poster="/media/hero-poster.jpg"
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-65"
-      >
-        <source src="/media/hero-bg.mp4" type="video/mp4" />
-      </video>
+      />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0"

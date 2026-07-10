@@ -1,21 +1,16 @@
 import { Card } from "@/components/ui/card";
 import { Spotlight } from "@/components/ui/spotlight";
 import { REGISTRATION_URL, SUMMIT } from "@/lib/config";
+import AutoplayVideo from "./AutoplayVideo";
 import HoloGlobe from "./HoloGlobe";
 
 export default function RegisterCta() {
   return (
     <section id="register" className="relative scroll-mt-16 overflow-hidden">
-      <video
-        aria-hidden
-        autoPlay
-        muted
-        loop
-        playsInline
+      <AutoplayVideo
+        src="/media/network.mp4"
         className="pointer-events-none absolute inset-0 h-full w-full object-cover opacity-25"
-      >
-        <source src="/media/network.mp4" type="video/mp4" />
-      </video>
+      />
       <div
         aria-hidden
         className="pointer-events-none absolute inset-0"
@@ -37,9 +32,9 @@ export default function RegisterCta() {
 
           <div className="relative z-10 flex flex-col items-center px-6 pt-10 text-center sm:px-12 sm:pt-14">
             <h2 className="text-3xl font-bold sm:text-4xl">
-              The future is in{" "}
+              The Future Is in{" "}
               <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent">
-                our hands
+                Our Hands
               </span>
             </h2>
             <p className="mt-5 max-w-2xl font-medium text-mist">

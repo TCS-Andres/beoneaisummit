@@ -1,3 +1,4 @@
+import Image from "next/image";
 import {
   Compass,
   Eye,
@@ -8,6 +9,7 @@ import {
   Users,
   type LucideIcon,
 } from "lucide-react";
+import AutoplayVideo from "./AutoplayVideo";
 
 const points: { title: string; text: string; icon: LucideIcon }[] = [
   {
@@ -79,25 +81,23 @@ export default function Vision() {
               </div>
             ))}
             <div data-reveal className="mt-3">
-              <h3 className="font-heading text-2xl font-bold sm:text-3xl">
+              <Image
+                src="/logos/be-one.png"
+                alt="BE ONE"
+                width={165}
+                height={52}
+                className="h-10 w-auto sm:h-12"
+              />
+              <h3 className="mt-3 font-heading text-2xl font-bold sm:text-3xl">
                 <span className="bg-gradient-to-r from-iris via-accent to-[#2e73d6] bg-clip-text text-transparent">
-                  Be One Digital Transformation in Action
+                  Digital Transformation in Action
                 </span>
               </h3>
-              <div
-                aria-hidden
-                className="mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-iris to-accent"
-              />
-              <video
-                autoPlay
-                muted
-                loop
-                playsInline
+              <AutoplayVideo
+                src="/media/entrepreneur.mp4"
                 className="mt-4 aspect-[4/3] w-full rounded-2xl border border-night/10 object-cover"
                 aria-label="Be One Digital Transformation in Action: highlights from past sessions"
-              >
-                <source src="/media/entrepreneur.mp4" type="video/mp4" />
-              </video>
+              />
             </div>
           </div>
 
@@ -127,14 +127,18 @@ export default function Vision() {
 
         <div
           data-reveal
-          className="mt-14 grid gap-8 rounded-2xl border border-night/10 bg-white/70 p-8 backdrop-blur-md sm:grid-cols-2 lg:grid-cols-4"
+          className="mt-16 grid gap-10 text-center sm:grid-cols-2 lg:grid-cols-4"
         >
           {stats.map((s) => (
             <div key={s.label}>
-              <p className="font-heading text-4xl font-bold text-iris">
-                {s.value}
+              <p className="font-heading text-6xl font-bold sm:text-7xl">
+                <span className="bg-gradient-to-b from-iris to-accent bg-clip-text text-transparent">
+                  {s.value}
+                </span>
               </p>
-              <p className="mt-2 text-sm text-slate">{s.label}</p>
+              <p className="mx-auto mt-3 max-w-[230px] text-sm text-slate">
+                {s.label}
+              </p>
             </div>
           ))}
         </div>

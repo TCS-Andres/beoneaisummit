@@ -12,7 +12,7 @@ export default function Venue() {
               The Venue
             </p>
             <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
-              Barry University, Miami Shores
+              Barry University
             </h2>
             <p className="mt-4 max-w-xl leading-relaxed text-slate">
               The Summit convenes at Barry University, home of the AI Center
