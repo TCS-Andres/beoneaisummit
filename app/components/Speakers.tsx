@@ -31,7 +31,6 @@ const speakers: Speaker[] = [
     title: "Program Director, BE ONE",
     session: "Opening Address: The Day Ahead",
     photo: "/speakers/steve-arman.webp",
-    imgClassName: "scale-[0.95]",
     bio: "Steve has spent years empowering underserved entrepreneurs in Miami-Dade. As Program Director of the BE ONE business development platform within Branches Inc., he understands the unique challenges micro-businesses face and how to overcome them.",
   },
   {
