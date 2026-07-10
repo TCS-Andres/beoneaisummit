@@ -101,14 +101,14 @@ export default function Hero() {
         <div
           data-reveal
           style={{ transitionDelay: "250ms" }}
-          className="mx-auto mt-12 grid max-w-3xl grid-cols-1 divide-y divide-white/10 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md sm:grid-cols-3 sm:divide-x sm:divide-y-0"
+          className="mx-auto mt-12 grid max-w-4xl grid-cols-1 divide-y divide-white/10 rounded-xl border border-white/10 bg-white/5 backdrop-blur-md sm:grid-cols-3 sm:divide-x sm:divide-y-0"
         >
           {details.map((d) => (
-            <div key={d.label} className="px-6 py-5">
+            <div key={d.label} className="px-7 py-5 text-center">
               <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
                 {d.label}
               </p>
-              <p className="mt-1.5 font-heading text-lg font-semibold text-mist">
+              <p className="mt-1.5 font-heading text-base font-semibold text-mist">
                 {d.value}
               </p>
             </div>
