@@ -32,7 +32,7 @@ export default function RegisterCta() {
 
           <div className="relative z-10 flex flex-col items-center px-6 pt-10 text-center sm:px-12 sm:pt-14">
             <h2 className="text-3xl font-bold sm:text-4xl">
-              The Future Is in{" "}
+              The Future is in{" "}
               <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent">
                 Our Hands
               </span>
