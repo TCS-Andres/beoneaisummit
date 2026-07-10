@@ -23,7 +23,7 @@ const speakers: Speaker[] = [
       "Dean, Andreas School of Business and Vice Provost of Technology, Barry University",
     session: "Welcome Remarks",
     photo: "/speakers/bogdan-daraban.webp",
-    imgClassName: "scale-[1.55] object-[50%_30%]",
+    imgClassName: "scale-[1.05] object-[50%_30%]",
     bio: "As Dean of the Andreas School of Business and Vice Provost of Technology at Barry University, Dr. Daraban champions academic leadership that drives innovation in AI, entrepreneurship, and technology education to empower future leaders.",
   },
   {
