@@ -84,8 +84,8 @@ export default function Vision() {
               muted
               loop
               playsInline
-              className="mt-1 aspect-video w-full rounded-2xl border border-night/10 object-cover"
-              aria-label="An entrepreneur working with AI tools"
+              className="mt-1 aspect-[4/3] w-full rounded-2xl border border-night/10 object-cover"
+              aria-label="Highlights from the AI for Small Business Summit"
             >
               <source src="/media/entrepreneur.mp4" type="video/mp4" />
             </video>
