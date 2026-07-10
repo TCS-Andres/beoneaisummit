@@ -96,6 +96,7 @@ const agenda: AgendaItem[] = [
       {
         time: "4:20 PM",
         title: "The Future Is Ours to Build",
+        speaker: "Tarik Safouan, Director, Barry AI Center",
       },
     ],
   },
