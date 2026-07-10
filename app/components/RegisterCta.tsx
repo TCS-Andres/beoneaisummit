@@ -37,15 +37,16 @@ export default function RegisterCta() {
 
           <div className="relative z-10 flex flex-col items-center px-6 pt-10 text-center sm:px-12 sm:pt-14">
             <h2 className="text-3xl font-bold sm:text-4xl">
-              The Future Is in{" "}
+              The future is in{" "}
               <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent">
-                Our Hands
+                our hands
               </span>
             </h2>
             <p className="mt-5 max-w-2xl font-medium text-mist">
-              Be part of the first AI for Small Business Summit. {SUMMIT.date} at{" "}
-              {SUMMIT.venue}, {SUMMIT.city}. Join 200 entrepreneurs, educators,
-              and leaders building a Human-Centered AI Economy.
+              Be part of the second annual AI for Small Business Summit.{" "}
+              {SUMMIT.date} at {SUMMIT.venue}, {SUMMIT.city}. Join 200
+              entrepreneurs, educators, and leaders building a Human-Centered AI
+              Economy.
             </p>
 
             {REGISTRATION_URL ? (

@@ -38,7 +38,7 @@ const stats = [
   { value: "200", label: "Entrepreneurs, educators, and civic leaders" },
   { value: "1", label: "Day of dialogue, learning, and action" },
   { value: "6", label: "Pillars for a Human-Centered AI Economy" },
-  { value: "2026", label: "The first of an annual convening of minds" },
+  { value: "2026", label: "The second annual convening of minds" },
 ];
 
 export default function Vision() {
