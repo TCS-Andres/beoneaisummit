@@ -78,17 +78,27 @@ export default function Vision() {
                 </div>
               </div>
             ))}
-            <video
-              data-reveal
-              autoPlay
-              muted
-              loop
-              playsInline
-              className="mt-1 aspect-[4/3] w-full rounded-2xl border border-night/10 object-cover"
-              aria-label="Highlights from the AI for Small Business Summit"
-            >
-              <source src="/media/entrepreneur.mp4" type="video/mp4" />
-            </video>
+            <div data-reveal className="mt-3">
+              <h3 className="font-heading text-2xl font-bold sm:text-3xl">
+                <span className="bg-gradient-to-r from-iris via-accent to-[#2e73d6] bg-clip-text text-transparent">
+                  Be One Digital Transformation in Action
+                </span>
+              </h3>
+              <div
+                aria-hidden
+                className="mt-2 h-1 w-24 rounded-full bg-gradient-to-r from-iris to-accent"
+              />
+              <video
+                autoPlay
+                muted
+                loop
+                playsInline
+                className="mt-4 aspect-[4/3] w-full rounded-2xl border border-night/10 object-cover"
+                aria-label="Be One Digital Transformation in Action: highlights from past sessions"
+              >
+                <source src="/media/entrepreneur.mp4" type="video/mp4" />
+              </video>
+            </div>
           </div>
 
           <dl className="grid content-start gap-4">

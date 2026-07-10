@@ -72,32 +72,30 @@ export default function Speakers() {
               data-reveal
               tabIndex={0}
               style={{ transitionDelay: `${(i % 3) * 80}ms` }}
-              className="group lift relative aspect-[4/5] overflow-hidden rounded-2xl border border-white/10 bg-night outline-none focus-visible:border-accent hover:border-accent"
+              className="group lift overflow-hidden rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-md outline-none focus-visible:border-accent hover:border-accent"
             >
-              <div className="absolute inset-0 transition-transform duration-500 ease-out group-hover:scale-105 group-focus-visible:scale-105">
+              <div className="relative aspect-square overflow-hidden">
                 <Image
                   src={s.photo}
                   alt={s.name}
                   fill
                   sizes="(min-width: 640px) 50vw, 100vw"
-                  className={`object-cover object-top ${s.imgClassName ?? ""}`}
+                  className={`object-cover object-top transition-transform duration-500 ease-out group-hover:scale-105 group-focus-visible:scale-105 ${s.imgClassName ?? ""}`}
                 />
+                <div className="absolute inset-0 hidden items-center bg-night/85 p-5 opacity-0 backdrop-blur-sm transition-opacity duration-300 ease-out group-hover:opacity-100 group-focus-visible:opacity-100 sm:flex">
+                  <p className="text-sm leading-relaxed text-mist">{s.bio}</p>
+                </div>
               </div>
 
-              <div
-                aria-hidden
-                className="absolute inset-x-0 bottom-0 h-[55%] bg-gradient-to-t from-night via-night/60 to-transparent"
-              />
-
-              <div className="absolute inset-x-0 bottom-0 p-5">
-                <h3 className="font-heading text-lg font-semibold text-white">
+              <div className="p-5">
+                <h3 className="font-heading text-lg font-semibold text-ink">
                   {s.name}
                 </h3>
-                <p className="mt-0.5 text-sm text-mist">{s.title}</p>
-                <p className="mt-3 inline-block rounded-md border border-accent/40 bg-accent/20 px-3 py-1 text-xs font-semibold text-glow">
+                <p className="mt-0.5 text-sm text-muted">{s.title}</p>
+                <p className="mt-3 inline-block rounded-md border border-accent/30 bg-accent/15 px-3 py-1 text-xs font-semibold text-glow">
                   {s.session}
                 </p>
-                <p className="mt-3 max-h-40 overflow-hidden text-sm leading-relaxed text-mist opacity-100 transition-all duration-500 ease-out sm:max-h-0 sm:opacity-0 sm:group-hover:max-h-40 sm:group-hover:opacity-100 sm:group-focus-visible:max-h-40 sm:group-focus-visible:opacity-100">
+                <p className="mt-3 text-sm leading-relaxed text-muted sm:hidden">
                   {s.bio}
                 </p>
               </div>

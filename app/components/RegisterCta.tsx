@@ -45,7 +45,7 @@ export default function RegisterCta() {
             <p className="mt-5 max-w-2xl font-medium text-mist">
               Be part of the second annual AI for Small Business Summit.{" "}
               {SUMMIT.date} at {SUMMIT.venue}, {SUMMIT.city}. Join 200
-              entrepreneurs, educators, and leaders building a Human-Centered AI
+              entrepreneurs, experts, and leaders building a Human-Centered AI
               Economy.
             </p>
 
