@@ -1,24 +1,21 @@
 import Image from "next/image";
 
-const leadership = [
+const speakers = [
   {
     name: "Brent McLaughlin",
     title: "President and CEO, Branches Inc.",
+    session: "Welcome Remarks",
     photo: "/speakers/brent-mclaughlin.webp",
-    quote:
-      "We don't just teach business theory. We walk alongside Miami-Dade entrepreneurs every day, understanding the real challenges of building a business in our community.",
+    bio: "As President and CEO of Branches Inc., Brent leads an organization that walks alongside Miami-Dade entrepreneurs every day, understanding the real challenges of building a business and providing the tools and guidance they need to grow.",
   },
   {
     name: "Dr. Bogdan Daraban",
     title:
       "Dean, Andreas School of Business and Vice Provost of Technology, Barry University",
+    session: "Welcome Remarks",
     photo: "/speakers/bogdan-daraban.webp",
-    quote:
-      "Our goal is to raise academic leaders driving innovation in AI, entrepreneurship, and technology education to empower future leaders.",
+    bio: "As Dean of the Andreas School of Business and Vice Provost of Technology at Barry University, Dr. Daraban champions academic leadership that drives innovation in AI, entrepreneurship, and technology education to empower future leaders.",
   },
-];
-
-const speakers = [
   {
     name: "Steve Arman",
     title: "Program Director, BE ONE",
@@ -52,8 +49,8 @@ export default function Speakers() {
           </p>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">Speakers</h2>
           <p className="mt-4 max-w-2xl text-muted">
-            Not theoretical academics: practitioners who work directly with
-            micro-businesses every day.
+            Leaders and practitioners working directly with Miami-Dade
+            entrepreneurs, from the classroom to the community.
           </p>
         </div>
 
@@ -86,39 +83,6 @@ export default function Speakers() {
               </div>
             </div>
           ))}
-        </div>
-
-        <div className="mt-16">
-          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
-            From the Hosts
-          </p>
-          <div className="mt-6 grid gap-5 lg:grid-cols-2">
-            {leadership.map((l, i) => (
-              <figure
-                key={l.name}
-                data-reveal
-                style={{ transitionDelay: `${i * 100}ms` }}
-                className="lift flex flex-col gap-5 rounded-2xl border border-white/10 bg-white/[0.04] backdrop-blur-md p-6 sm:flex-row sm:items-start"
-              >
-                <Image
-                  src={l.photo}
-                  alt={l.name}
-                  width={800}
-                  height={800}
-                  className="h-20 w-20 shrink-0 rounded-full object-cover object-top"
-                />
-                <div>
-                  <blockquote className="text-sm leading-relaxed text-mist">
-                    &ldquo;{l.quote}&rdquo;
-                  </blockquote>
-                  <figcaption className="mt-3 text-sm">
-                    <span className="font-semibold text-ink">{l.name}</span>
-                    <span className="block text-muted">{l.title}</span>
-                  </figcaption>
-                </div>
-              </figure>
-            ))}
-          </div>
         </div>
       </div>
     </section>
