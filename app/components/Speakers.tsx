@@ -23,7 +23,7 @@ const speakers: Speaker[] = [
       "Dean, Andreas School of Business and Vice Provost of Technology, Barry University",
     session: "Welcome Remarks",
     photo: "/speakers/bogdan-daraban.webp",
-    imgClassName: "scale-[1.7] object-[50%_30%]",
+    imgClassName: "scale-[1.55] object-[50%_30%]",
     bio: "As Dean of the Andreas School of Business and Vice Provost of Technology at Barry University, Dr. Daraban champions academic leadership that drives innovation in AI, entrepreneurship, and technology education to empower future leaders.",
   },
   {
@@ -31,6 +31,7 @@ const speakers: Speaker[] = [
     title: "Program Director, BE ONE",
     session: "Opening Address: The Day Ahead",
     photo: "/speakers/steve-arman.webp",
+    imgClassName: "scale-[0.95]",
     bio: "Steve has spent years empowering underserved entrepreneurs in Miami-Dade. As Program Director of the BE ONE business development platform within Branches Inc., he understands the unique challenges micro-businesses face and how to overcome them.",
   },
   {
@@ -79,14 +80,14 @@ export default function Speakers() {
                   src={s.photo}
                   alt={s.name}
                   fill
-                  sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+                  sizes="(min-width: 640px) 50vw, 100vw"
                   className={`object-cover object-top ${s.imgClassName ?? ""}`}
                 />
               </div>
 
               <div
                 aria-hidden
-                className="absolute inset-0 bg-gradient-to-t from-night via-night/80 to-transparent"
+                className="absolute inset-x-0 bottom-0 h-[55%] bg-gradient-to-t from-night via-night/60 to-transparent"
               />
 
               <div className="absolute inset-x-0 bottom-0 p-5">
