@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { UserRound } from "lucide-react";
 
 type Speaker = {
   name: string;
@@ -49,6 +50,14 @@ const speakers: Speaker[] = [
   },
 ];
 
+// Sessions whose presenters are still being finalized.
+const comingSoon = [
+  "Signature Keynote Address",
+  "Human Flourishing in the Age of AI",
+  "AI and the Future of Economic Opportunity",
+  "The Next Frontier: Human-Centered Innovation",
+];
+
 export default function Speakers() {
   return (
     <section id="speakers" className="scroll-mt-16">
@@ -97,6 +106,45 @@ export default function Speakers() {
                 </p>
                 <p className="mt-3 text-sm leading-relaxed text-muted sm:hidden">
                   {s.bio}
+                </p>
+              </div>
+            </article>
+          ))}
+
+          {comingSoon.map((session, i) => (
+            <article
+              key={session}
+              data-reveal
+              style={{ transitionDelay: `${((speakers.length + i) % 3) * 80}ms` }}
+              className="lift overflow-hidden rounded-2xl border border-white/10 border-dashed bg-white/[0.02] backdrop-blur-md"
+            >
+              <div className="relative flex aspect-square items-center justify-center overflow-hidden bg-gradient-to-b from-panel to-night">
+                <div
+                  aria-hidden
+                  className="absolute inset-0 bg-[radial-gradient(24rem_24rem_at_50%_40%,rgba(143,76,255,0.12),transparent_70%)]"
+                />
+                <UserRound
+                  aria-hidden
+                  className="h-32 w-32 text-muted/30"
+                  strokeWidth={0.9}
+                />
+                <span
+                  aria-hidden
+                  className="absolute flex h-14 w-14 translate-x-8 translate-y-8 items-center justify-center rounded-full border border-accent/40 bg-night/90 font-heading text-2xl font-bold text-glow"
+                >
+                  ?
+                </span>
+              </div>
+
+              <div className="p-5">
+                <h3 className="font-heading text-lg font-semibold text-ink">
+                  To Be Announced
+                </h3>
+                <p className="mt-0.5 text-sm text-muted">
+                  Speaker announcement coming soon
+                </p>
+                <p className="mt-3 inline-block rounded-md border border-accent/30 bg-accent/15 px-3 py-1 text-xs font-semibold text-glow">
+                  {session}
                 </p>
               </div>
             </article>
