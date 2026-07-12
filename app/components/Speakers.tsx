@@ -50,10 +50,11 @@ const speakers: Speaker[] = [
   },
 ];
 
-// Sessions whose presenters are still being finalized.
+// Sessions whose presenters are still being finalized, in program order.
 const comingSoon = [
   "Signature Keynote Address",
-  "Human Flourishing in the Age of AI",
+  "AI Systems for Entrepreneurs",
+  "Human Flourishing in the Age of Artificial Intelligence",
   "AI and the Future of Economic Opportunity",
   "The Next Frontier: Human-Centered Innovation",
 ];
@@ -128,12 +129,6 @@ export default function Speakers() {
                   className="h-32 w-32 text-muted/30"
                   strokeWidth={0.9}
                 />
-                <span
-                  aria-hidden
-                  className="absolute flex h-14 w-14 translate-x-8 translate-y-8 items-center justify-center rounded-full border border-accent/40 bg-night/90 font-heading text-2xl font-bold text-glow"
-                >
-                  ?
-                </span>
               </div>
 
               <div className="p-5">
