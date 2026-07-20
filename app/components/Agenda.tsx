@@ -84,7 +84,9 @@ const agenda: AgendaItem[] = [
     sessions: [
       {
         time: "3:05 PM",
-        title: "Human Flourishing in the Age of Artificial Intelligence",
+        title: "Leading Through Transformation in the Age of Artificial Intelligence",
+        speaker:
+          "Dr. Camille Samuel, Campus Registrar, The University of the West Indies, Five Islands Campus",
       },
       {
         time: "3:30 PM",

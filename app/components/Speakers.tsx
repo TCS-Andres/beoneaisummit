@@ -49,25 +49,24 @@ const speakers: Speaker[] = [
     bio: "Andres helps small businesses cut through marketing noise to connect authentically with customers. His approach focuses on clarity, consistency, and maintaining trust, even while leveraging AI tools.",
   },
   {
+    name: "Dr. Camille Samuel",
+    title:
+      "Campus Registrar, The University of the West Indies, Five Islands Campus",
+    session: "Leading Through Transformation in the Age of Artificial Intelligence",
+    bio: "As Campus Registrar at The University of the West Indies, Five Islands Campus, Dr Camille Samuel champions institutional transformation, digital innovation and student success, strengthening systems and creating opportunities that empower the next generation of Caribbean leaders. An experienced higher education administrator and educator, she has led major organisational and digital transformation initiatives across the Caribbean. Her work and research focus on leadership, institutional resilience and the development of robust systems that enable organisations to thrive.",
+  },
+  {
     name: "Tarik Safouan",
     title: "Director, Barry AI Center",
     session: "The Future Is Ours to Build",
     photo: "/speakers/tarik-safouan.webp",
     bio: "As Director of Barry University's AI Center, Tarik bridges cutting-edge AI research with practical business applications. He specializes in making AI accessible and actionable for organizations of all sizes.",
   },
-  {
-    name: "Dr. Camille Samuel",
-    title:
-      "Campus Registrar, The University of the West Indies, Five Islands Campus",
-    session: "Navigating AI-Driven Transformation",
-    bio: "As Campus Registrar at The University of the West Indies, Five Islands Campus, Dr Camille Samuel champions institutional transformation, digital innovation and student success, strengthening systems and creating opportunities that empower the next generation of Caribbean leaders. An experienced higher education administrator and educator, she has led major organisational and digital transformation initiatives across the Caribbean. Her work and research focus on leadership, institutional resilience and the development of robust systems that enable organisations to thrive.",
-  },
 ];
 
 // Sessions whose presenters are still being finalized, in program order.
 const comingSoon = [
   "Signature Keynote Address",
-  "Human Flourishing in the Age of Artificial Intelligence",
   "AI and the Future of Economic Opportunity",
   "The Next Frontier: Human-Centered Innovation",
 ];
