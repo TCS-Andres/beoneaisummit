@@ -67,6 +67,7 @@ const agenda: AgendaItem[] = [
       {
         time: "1:35 PM",
         title: "AI Systems for Entrepreneurs: automating the work that slows you down",
+        speaker: "Christina Costanzo, Director, Business Transformation, Embark",
       },
       {
         time: "2:15 PM",
