@@ -12,15 +12,35 @@ const inter = Inter({
   subsets: ["latin"],
 });
 
+const description =
+  "Building a Human-Centered AI Economy: advancing human flourishing in the age of artificial intelligence. September 14, 2026 at Barry University, Miami Shores, Florida.";
+
 export const metadata: Metadata = {
-  title: "AI for Small Business Summit 2026 | Branches BE ONE & Barry University AI Center",
-  description:
-    "Building a Human-Centered AI Economy: advancing human flourishing in the age of artificial intelligence. September 14, 2026 at Barry University, Miami Shores, Florida.",
+  metadataBase: new URL("https://beoneaisummit.vercel.app"),
+  title:
+    "AI for Small Business Summit 2026 | Branches BE ONE & Barry University AI Center",
+  description,
   openGraph: {
     title: "AI for Small Business Summit 2026",
-    description:
-      "Building a Human-Centered AI Economy. Hosted by Branches BE ONE and the Barry University AI Center. September 14, 2026, Miami Shores, Florida.",
+    description,
+    url: "https://beoneaisummit.vercel.app",
+    siteName: "AI for Small Business Summit 2026",
     type: "website",
+    locale: "en_US",
+    images: [
+      {
+        url: "/og-image.jpg",
+        width: 1200,
+        height: 630,
+        alt: "AI for Small Business Summit 2026, Building a Human-Centered AI Economy, September 14, 2026 at Barry University, Miami Shores.",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "AI for Small Business Summit 2026",
+    description,
+    images: ["/og-image.jpg"],
   },
 };
 
