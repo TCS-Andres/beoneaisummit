@@ -1,4 +1,9 @@
-type SubSession = { time: string; title: string; speaker?: string };
+type SubSession = {
+  time: string;
+  title: string;
+  subtitle?: string;
+  speaker?: string;
+};
 
 type AgendaItem = {
   time: string;
@@ -79,24 +84,35 @@ const agenda: AgendaItem[] = [
         speaker: "Lilia Restrepo, Director of Business Intelligence, Kaufman Rossin",
       },
       {
-        time: "2:15 PM",
+        time: "1:55 PM",
         title: "Building Your First AI Employee",
         speaker: "Andres Diaz, Fractional Chief Marketing Officer",
       },
-    ],
-  },
-  {
-    time: "3:05 PM",
-    title: "TED-Style Presentations",
-    location: "Plenary Room",
-    highlight: true,
-    sessions: [
       {
-        time: "3:05 PM",
+        time: "2:15 PM",
+        title: "AI and the Future of Small Business Finance",
+        subtitle: "Know your numbers, empower your business.",
+      },
+      {
+        time: "2:35 PM",
         title: "Leading Through Transformation in the Age of Artificial Intelligence",
         speaker:
           "Dr. Camille Samuel, Campus Registrar, The University of the West Indies, Five Islands Campus",
       },
+      {
+        time: "2:55 PM",
+        title: "Governing AI Transformation",
+        subtitle:
+          "Transforming Policies, Partnerships, and Institutions for a Human-Centered AI Economy.",
+      },
+    ],
+  },
+  {
+    time: "3:30 PM",
+    title: "TED-Style Presentations",
+    location: "Plenary Room",
+    highlight: true,
+    sessions: [
       {
         time: "3:30 PM",
         title: "AI and the Future of Economic Opportunity",
@@ -184,8 +200,11 @@ export default function Agenda() {
                         </span>
                         <span className="text-sm text-deep">
                           <span className="font-medium">{s.title}</span>
+                          {s.subtitle && (
+                            <span className="block text-slate">{s.subtitle}</span>
+                          )}
                           {s.speaker && (
-                            <span className="block text-slate">{s.speaker}</span>
+                            <span className="block text-iris/90">{s.speaker}</span>
                           )}
                         </span>
                       </li>
