@@ -68,7 +68,6 @@ const speakers: Speaker[] = [
 
 // Sessions whose presenters are still being finalized, in program order.
 const comingSoon = [
-  "Signature Keynote Address",
   "AI and the Future of Economic Opportunity",
   "The Next Frontier: Human-Centered Innovation",
 ];

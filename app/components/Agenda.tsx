@@ -38,18 +38,7 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "10:20 AM",
-    title: "Signature Keynote Address",
-    detail:
-      "Building a Human-Centered AI Economy: why human flourishing must guide the AI era.",
-    highlight: true,
-  },
-  {
     time: "10:40 AM",
-    title: "Coffee & Networking Break",
-  },
-  {
-    time: "11:00 AM",
     title: "The Miami AI Debate",
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
