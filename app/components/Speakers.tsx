@@ -36,11 +36,10 @@ const speakers: Speaker[] = [
     bio: "Steve has spent years empowering underserved entrepreneurs in Miami-Dade. As Program Director of the BE ONE business development platform within Branches Inc., he understands the unique challenges micro-businesses face and how to overcome them.",
   },
   {
-    name: "Christina Costanzo",
-    title: "Director, Business Transformation, Embark",
+    name: "Lilia Restrepo",
+    title: "Director, Business Intelligence, Kaufman Rossin",
     session: "AI Systems for Entrepreneurs",
-    photo: "/speakers/christina-costanzo.webp",
-    bio: "Christina leads digital transformation, data and analytics, and AI implementation work at Embark, where she helps private equity-backed and mid-market companies modernize how they operate, replacing fragmented, manual processes with integrated systems built on data and automation. Her background spans traditional accounting and advisory, giving her a rare fluency in both business strategy and technical implementation, from CFO-level decision-making to the architecture that powers it.",
+    bio: "As Director of Business Intelligence at Kaufman Rossin, Lilia helps businesses turn their data into clear, actionable insight, guiding smarter decisions and sustainable growth.",
   },
   {
     name: "Andres Diaz",
