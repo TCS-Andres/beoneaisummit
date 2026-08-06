@@ -41,7 +41,27 @@ const agenda: AgendaItem[] = [
     time: "10:40 AM",
     title: "The Miami AI Debate",
     detail:
-      "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
+      "Munk-style debate, until 11:40 AM. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
+    highlight: true,
+  },
+  {
+    time: "11:40 AM",
+    title: "From Conversation to Conversion",
+    detail:
+      "Featured Address. How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
+    highlight: true,
+  },
+  {
+    time: "11:50 AM",
+    title: "The AI-Powered Customer",
+    detail:
+      "Panel Discussion. What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
+    highlight: true,
+  },
+  {
+    time: "12:10 PM",
+    title: "Designated AI",
+    detail: "Panel Discussion. Practical AI Strategies for Business Growth.",
     highlight: true,
   },
   {
