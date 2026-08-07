@@ -28,17 +28,17 @@ export default function Hero() {
       <div className="relative mx-auto max-w-5xl px-4 pb-20 pt-16 text-center sm:px-6 sm:pt-24">
         <div data-reveal>
           <p className="mb-5 inline-block rounded-full border border-white/20 bg-white/10 px-4 py-1.5 text-xs font-semibold uppercase tracking-[0.25em] text-white backdrop-blur-md [text-shadow:0_1px_10px_rgba(20,22,41,0.9)]">
-            2nd Annual
+            2nd Annual Summit &amp; Expo
           </p>
           <h1 className="mx-auto max-w-4xl text-5xl font-bold leading-[1.05] [text-shadow:0_2px_24px_rgba(20,22,41,0.85)] sm:text-7xl">
             AI for Small Business{" "}
             <span className="bg-gradient-to-r from-glow to-[#85e9ff] bg-clip-text text-transparent [text-shadow:none]">
-              Summit 2026
+              Summit &amp; Expo 2026
             </span>
           </h1>
 
           <p className="mx-auto mt-7 max-w-3xl text-2xl font-semibold text-white [text-shadow:0_2px_18px_rgba(20,22,41,0.9)] sm:text-3xl">
-            {SUMMIT.theme}
+            <span className="text-glow">AI for Good:</span> {SUMMIT.theme}
           </p>
           <p className="mx-auto mt-4 max-w-2xl text-lg font-medium text-mist [text-shadow:0_1px_14px_rgba(20,22,41,0.9)] sm:text-xl">
             {SUMMIT.tagline}. One day of keynotes, learning tracks, an
