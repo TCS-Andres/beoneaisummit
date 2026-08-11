@@ -77,7 +77,7 @@ const agenda: AgendaItem[] = [
     title: "Designated AI",
     detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
     speaker:
-      "Tarik Safouan (Director, Barry AI Center) and Marcin Ladowski (President, Worldwise Ventures)",
+      "Tarik Safouan, Director, Barry AI Center; Marcin Ladowski, President, Worldwise Ventures",
     highlight: true,
   },
   {
@@ -97,7 +97,8 @@ const agenda: AgendaItem[] = [
       {
         time: "1:55 PM",
         title: "Building Your First AI Employee",
-        speaker: "Andres Diaz, Fractional Chief Marketing Officer",
+        speaker:
+          "Andres Diaz, Fractional Chief Marketing Officer, The Creative Strategist",
       },
       {
         time: "2:15 PM",
@@ -122,7 +123,7 @@ const agenda: AgendaItem[] = [
         title: "Panel Discussion: Leadership in the Age of AI",
         subtitle: "Navigating Transformation, Opportunity and Human Impact",
         speaker:
-          "Dr. Camille Samuel (Campus Registrar, UWI), Adriana Madrinan, and Ria Karim",
+          "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, Business Model Innovation Strategist; Ria Karim, Chairman, iGovTT",
       },
       {
         time: "3:15 PM",

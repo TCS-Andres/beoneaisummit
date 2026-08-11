@@ -46,17 +46,19 @@ const speakers: Speaker[] = [
     name: "Marcin Ladowski",
     title: "President, Worldwise Ventures",
     session: "Panel: Practical AI Strategies for Business Growth",
+    photo: "/speakers/marcin-ladowski.webp",
     bio: "An entrepreneur and transformation leader, Marcin empowers businesses to scale with AI, innovation, and forward-thinking leadership.",
   },
   {
     name: "Lilia Restrepo",
     title: "Director, Business Intelligence, Kaufman Rossin",
     session: "AI Systems for Entrepreneurs",
+    photo: "/speakers/lilia-restrepo.webp",
     bio: "As Director of Business Intelligence at Kaufman Rossin, Lilia helps businesses turn their data into clear, actionable insight, guiding smarter decisions and sustainable growth.",
   },
   {
     name: "Andres Diaz",
-    title: "Fractional Chief Marketing Officer",
+    title: "Fractional Chief Marketing Officer, The Creative Strategist",
     session: "Building Your First AI Employee",
     photo: "/speakers/andres-diaz.webp",
     bio: "Andres helps small businesses cut through marketing noise to connect authentically with customers. His approach focuses on clarity, consistency, and maintaining trust, even while leveraging AI tools.",
@@ -73,18 +75,21 @@ const speakers: Speaker[] = [
     title:
       "AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect",
     session: "Panel: Leadership in the Age of AI",
+    photo: "/speakers/adriana-madrinan.webp",
     bio: "With 15+ years of experience in corporate America and 8+ years supporting entrepreneurs across the U.S. and Latin America, Adriana helps small business owners redesign business models, clarify strategy, and build growth systems for the AI era. She has trained 1,500+ entrepreneurs and designed 100+ experiential courses and tools. Her signature framework, The Business Model Canvas Reimagined with AI, helps founders rethink how they create and capture value.",
   },
   {
     name: "Ria Karim",
     title: "Chairman, iGovTT",
     session: "Panel: Leadership in the Age of AI",
+    photo: "/speakers/ria-karim.webp",
     bio: "Ria Karim is an accomplished executive leader, strategist, entrepreneur, and governance professional with more than 20 years of experience across government, technology, private enterprise, and national development. A Trinidad & Tobago Open Scholarship recipient and cum laude graduate of Georgetown University's School of Foreign Service, she is the creator of the pioneering D'Junction Carnival technology platform and a founder who has mentored startups in the Washington, DC area through the George Washington University Lean Startup methodology programme, and an adjunct lecturer at UWI and Lok Jack GSB. She currently serves as Chairman of iGovTT, providing strategic and governance leadership in advancing Trinidad & Tobago's national digital transformation agenda.",
   },
   {
     name: "Dr. Katsiaryna Matusevich",
     title: "Professor of Human Resource Development, Barry University",
     session: "Human Relevance Development: The Missing Piece in AI Strategy",
+    photo: "/speakers/katsiaryna-matusevich.webp",
     bio: "Katsiaryna Matusevich, PhD, is Professor of Human Resource Development and Program Director of the MS in HRD in the Andreas School of Business and Public Administration at Barry University. Her research examines the environmental predictors of work-related flow, including leadership and organizational culture, within Job Demands-Resources theory, and the effects of AI on employees' flow and flourishing. She coined the term Human Relevance Development and introduced it at the 33rd Academy of Human Resource Development International Research Conference in the Americas. She speaks on the shift from Human Resources to human relevance, including at DisruptHR Miami, and works with organizations on AI adoption, leadership development, and the design of work that keeps human agency central.",
   },
   {
