@@ -40,7 +40,7 @@ const speakers: Speaker[] = [
     title: "Director, Business Transformation, Embark",
     session: "The Miami AI Debate",
     photo: "/speakers/christina-costanzo.webp",
-    bio: "Christina leads digital transformation, data and analytics, and AI implementation work at Embark, where she helps private equity-backed and mid-market companies modernize how they operate, replacing fragmented, manual processes with integrated systems built on data and automation. Her background spans traditional accounting and advisory, giving her a rare fluency in both business strategy and technical implementation, from CFO-level decision-making to the architecture that powers it.",
+    bio: "Christina leads digital transformation, data and analytics, and AI implementation at Embark, helping private equity-backed and mid-market companies replace fragmented, manual processes with integrated systems built on data and automation. Her background spans accounting and advisory, giving her fluency in both business strategy and technical implementation.",
   },
   {
     name: "Marcin Ladowski",
@@ -54,7 +54,7 @@ const speakers: Speaker[] = [
     title: "Director, Business Intelligence, Kaufman Rossin",
     session: "AI Systems for Entrepreneurs",
     photo: "/speakers/lilia-restrepo.webp",
-    bio: "As Director of Business Intelligence at Kaufman Rossin, Lilia helps businesses turn their data into clear, actionable insight, guiding smarter decisions and sustainable growth.",
+    bio: "Lilia leads analytics and automation at Kaufman Rossin and helps clients navigate AI implementation, turning data into clear, actionable insight that drives smarter decisions and sustainable growth.",
   },
   {
     name: "Andres Diaz",
@@ -68,7 +68,7 @@ const speakers: Speaker[] = [
     title: "Campus Registrar, UWI",
     session: "Panel: Leadership in the Age of AI",
     photo: "/speakers/camille-samuel.webp",
-    bio: "As Campus Registrar at The University of the West Indies, Five Islands Campus, Dr Camille Samuel champions institutional transformation, digital innovation and student success, strengthening systems and creating opportunities that empower the next generation of Caribbean leaders. An experienced higher education administrator and educator, she has led major organisational and digital transformation initiatives across the Caribbean. Her work and research focus on leadership, institutional resilience and the development of robust systems that enable organisations to thrive.",
+    bio: "As Campus Registrar at The University of the West Indies, Five Islands Campus, Dr. Camille Samuel champions institutional transformation, digital innovation, and student success across the Caribbean. An experienced higher education administrator, she has led major organizational and digital transformation initiatives, with research focused on leadership, institutional resilience, and systems that help organizations thrive.",
   },
   {
     name: "Adriana Madrinan",
@@ -76,21 +76,21 @@ const speakers: Speaker[] = [
       "AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect",
     session: "Panel: Leadership in the Age of AI",
     photo: "/speakers/adriana-madrinan.webp",
-    bio: "With 15+ years of experience in corporate America and 8+ years supporting entrepreneurs across the U.S. and Latin America, Adriana helps small business owners redesign business models, clarify strategy, and build growth systems for the AI era. She has trained 1,500+ entrepreneurs and designed 100+ experiential courses and tools. Her signature framework, The Business Model Canvas Reimagined with AI, helps founders rethink how they create and capture value.",
+    bio: "With 15+ years in corporate America and 8+ years supporting entrepreneurs across the U.S. and Latin America, Adriana helps small business owners redesign business models, clarify strategy, and build growth systems for the AI era. She has trained 1,500+ entrepreneurs and designed 100+ experiential courses, including her framework The Business Model Canvas Reimagined with AI.",
   },
   {
     name: "Ria Karim",
     title: "Chairman, iGovTT",
     session: "Panel: Leadership in the Age of AI",
     photo: "/speakers/ria-karim.webp",
-    bio: "Ria Karim is an accomplished executive leader, strategist, entrepreneur, and governance professional with more than 20 years of experience across government, technology, private enterprise, and national development. A Trinidad & Tobago Open Scholarship recipient and cum laude graduate of Georgetown University's School of Foreign Service, she is the creator of the pioneering D'Junction Carnival technology platform and a founder who has mentored startups in the Washington, DC area through the George Washington University Lean Startup methodology programme, and an adjunct lecturer at UWI and Lok Jack GSB. She currently serves as Chairman of iGovTT, providing strategic and governance leadership in advancing Trinidad & Tobago's national digital transformation agenda.",
+    bio: "Ria Karim is an executive leader, strategist, and governance professional with over 20 years across government, technology, and national development. A cum laude graduate of Georgetown University and creator of the D'Junction Carnival platform, she has mentored startups through George Washington University's Lean Startup programme and lectured at UWI and Lok Jack GSB. She serves as Chairman of iGovTT, advancing Trinidad & Tobago's digital transformation.",
   },
   {
     name: "Dr. Katsiaryna Matusevich",
     title: "Professor of Human Resource Development, Barry University",
     session: "Human Relevance Development: The Missing Piece in AI Strategy",
     photo: "/speakers/katsiaryna-matusevich.webp",
-    bio: "Katsiaryna Matusevich, PhD, is Professor of Human Resource Development and Program Director of the MS in HRD in the Andreas School of Business and Public Administration at Barry University. Her research examines the environmental predictors of work-related flow, including leadership and organizational culture, within Job Demands-Resources theory, and the effects of AI on employees' flow and flourishing. She coined the term Human Relevance Development and introduced it at the 33rd Academy of Human Resource Development International Research Conference in the Americas. She speaks on the shift from Human Resources to human relevance, including at DisruptHR Miami, and works with organizations on AI adoption, leadership development, and the design of work that keeps human agency central.",
+    bio: "Katsiaryna Matusevich, PhD, is Professor of Human Resource Development and Program Director of the MS in HRD at Barry University's Andreas School of Business. Her research examines work-related flow and the effects of AI on employee flourishing. She coined the term Human Relevance Development, championing the shift from Human Resources to human relevance and helping organizations adopt AI while keeping human agency central.",
   },
   {
     name: "Tarik Safouan",
@@ -154,7 +154,7 @@ export default function Speakers() {
                     />
                   </div>
                 )}
-                <div className="absolute inset-0 hidden items-center bg-night/85 p-5 opacity-0 backdrop-blur-sm transition-opacity duration-300 ease-out group-hover:opacity-100 group-focus-visible:opacity-100 sm:flex">
+                <div className="absolute inset-0 hidden items-start overflow-y-auto bg-night/85 p-5 opacity-0 backdrop-blur-sm transition-opacity duration-300 ease-out group-hover:opacity-100 group-focus-visible:opacity-100 sm:flex">
                   <p className="text-sm leading-relaxed text-mist">{s.bio}</p>
                 </div>
               </div>

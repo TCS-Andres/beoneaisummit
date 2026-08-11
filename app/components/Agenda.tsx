@@ -123,7 +123,7 @@ const agenda: AgendaItem[] = [
         title: "Panel Discussion: Leadership in the Age of AI",
         subtitle: "Navigating Transformation, Opportunity and Human Impact",
         speaker:
-          "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, Business Model Innovation Strategist; Ria Karim, Chairman, iGovTT",
+          "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect; Ria Karim, Chairman, iGovTT",
       },
       {
         time: "3:15 PM",
