@@ -43,30 +43,37 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
+    time: "10:20 AM",
+    title: "Signature Keynote Address",
+    detail:
+      "Building a Human-Centered AI Economy: Why Human Flourishing Must Guide the AI Era.",
+    highlight: true,
+  },
+  {
     time: "10:40 AM",
     title: "The Miami AI Debate",
     detail:
-      "Munk-style debate, until 11:40 AM. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
+      "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
     highlight: true,
   },
   {
     time: "11:40 AM",
     title: "From Conversation to Conversion",
     detail:
-      "Featured Address. How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
+      "Featured Address: How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
     highlight: true,
   },
   {
     time: "11:50 AM",
     title: "The AI-Powered Customer",
     detail:
-      "Panel Discussion. What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
+      "Panel Discussion: What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
     highlight: true,
   },
   {
     time: "12:10 PM",
     title: "Designated AI",
-    detail: "Panel Discussion. Practical AI Strategies for Business Growth.",
+    detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
     highlight: true,
   },
   {
@@ -95,34 +102,33 @@ const agenda: AgendaItem[] = [
       },
       {
         time: "2:35 PM",
-        title: "Leading Through Transformation in the Age of Artificial Intelligence",
-        speaker:
-          "Dr. Camille Samuel, Campus Registrar, The University of the West Indies, Five Islands Campus",
-      },
-      {
-        time: "2:55 PM",
-        title: "Governing AI Transformation",
-        subtitle:
-          "Transforming Policies, Partnerships, and Institutions for a Human-Centered AI Economy.",
+        title: "DX Lab AI Startup Pitch Competition",
       },
     ],
   },
   {
-    time: "3:30 PM",
-    title: "TED-Style Presentations",
+    time: "2:50 PM",
+    title: "Leadership, AI, & Transformation",
     location: "Plenary Room",
     highlight: true,
     sessions: [
       {
-        time: "3:30 PM",
+        time: "2:50 PM",
+        title: "Panel Discussion: Leadership in the Age of AI",
+        subtitle: "Navigating Transformation, Opportunity and Human Impact",
+        speaker:
+          "Dr. Camille Samuel, Campus Registrar, The University of the West Indies, Five Islands Campus",
+      },
+      {
+        time: "3:15 PM",
         title: "AI and the Future of Economic Opportunity",
       },
       {
-        time: "4:00 PM",
-        title: "The Next Frontier: Human-Centered Innovation",
+        time: "3:30 PM",
+        title: "Human Relevance Development: The Missing Piece in AI Strategy",
       },
       {
-        time: "4:20 PM",
+        time: "3:45 PM",
         title: "The Future Is Ours to Build",
         speaker: "Tarik Safouan, Director, Barry AI Center",
       },

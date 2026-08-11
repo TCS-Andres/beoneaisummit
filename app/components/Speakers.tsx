@@ -52,7 +52,7 @@ const speakers: Speaker[] = [
     name: "Dr. Camille Samuel",
     title:
       "Campus Registrar, The University of the West Indies, Five Islands Campus",
-    session: "Leading Through Transformation in the Age of Artificial Intelligence",
+    session: "Panel: Leadership in the Age of AI",
     photo: "/speakers/camille-samuel.webp",
     bio: "As Campus Registrar at The University of the West Indies, Five Islands Campus, Dr Camille Samuel champions institutional transformation, digital innovation and student success, strengthening systems and creating opportunities that empower the next generation of Caribbean leaders. An experienced higher education administrator and educator, she has led major organisational and digital transformation initiatives across the Caribbean. Her work and research focus on leadership, institutional resilience and the development of robust systems that enable organisations to thrive.",
   },
@@ -68,9 +68,8 @@ const speakers: Speaker[] = [
 // Sessions whose presenters are still being finalized, in program order.
 const comingSoon = [
   "AI and the Future of Small Business Finance",
-  "Governing AI Transformation",
   "AI and the Future of Economic Opportunity",
-  "The Next Frontier: Human-Centered Innovation",
+  "Human Relevance Development: The Missing Piece in AI Strategy",
 ];
 
 export default function Speakers() {
