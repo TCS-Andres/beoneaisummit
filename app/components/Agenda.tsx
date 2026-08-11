@@ -9,6 +9,7 @@ type AgendaItem = {
   time: string;
   title: string;
   detail?: string;
+  speaker?: string;
   location?: string;
   sessions?: SubSession[];
   highlight?: boolean;
@@ -54,6 +55,7 @@ const agenda: AgendaItem[] = [
     title: "The Miami AI Debate",
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
+    speaker: "Christina Costanzo, Director, Business Transformation, Embark",
     highlight: true,
   },
   {
@@ -74,6 +76,8 @@ const agenda: AgendaItem[] = [
     time: "12:10 PM",
     title: "Designated AI",
     detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
+    speaker:
+      "Tarik Safouan (Director, Barry AI Center) and Marcin Ladowski (President, Worldwise Ventures)",
     highlight: true,
   },
   {
@@ -103,6 +107,7 @@ const agenda: AgendaItem[] = [
       {
         time: "2:35 PM",
         title: "DX Lab AI Startup Pitch Competition",
+        subtitle: "Presented by the Barry University DX Lab.",
       },
     ],
   },
@@ -117,7 +122,7 @@ const agenda: AgendaItem[] = [
         title: "Panel Discussion: Leadership in the Age of AI",
         subtitle: "Navigating Transformation, Opportunity and Human Impact",
         speaker:
-          "Dr. Camille Samuel, Campus Registrar, The University of the West Indies, Five Islands Campus",
+          "Dr. Camille Samuel (Campus Registrar, UWI), Adriana Madrinan, and Ria Karim",
       },
       {
         time: "3:15 PM",
@@ -126,6 +131,8 @@ const agenda: AgendaItem[] = [
       {
         time: "3:30 PM",
         title: "Human Relevance Development: The Missing Piece in AI Strategy",
+        speaker:
+          "Dr. Katsiaryna Matusevich, Professor of Human Resource Development, Barry University",
       },
       {
         time: "3:45 PM",
@@ -135,11 +142,11 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "4:40 PM",
+    time: "4:00 PM",
     title: "Closing Reflections",
   },
   {
-    time: "5:00 PM",
+    time: "4:30 PM",
     title: "Networking Reception",
     detail:
       "Innovation Expo & Trade Fair reception, speaker meet-and-greet, sponsor engagement, partnership discussions, and the student innovation showcase.",
@@ -192,6 +199,11 @@ export default function Agenda() {
                 {item.detail && (
                   <p className="mt-1 max-w-2xl text-sm leading-relaxed text-slate">
                     {item.detail}
+                  </p>
+                )}
+                {item.speaker && (
+                  <p className="mt-1.5 text-sm font-medium text-iris/90">
+                    {item.speaker}
                   </p>
                 )}
                 {item.sessions && (
