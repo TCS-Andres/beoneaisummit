@@ -77,7 +77,7 @@ const agenda: AgendaItem[] = [
     title: "Designated AI",
     detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
     speaker:
-      "Tarik Safouan, Director, Barry AI Center; Marcin Ladowski, President, Worldwise Ventures",
+      "Tarik Safouan, Director, Barry AI Center; Marcin Ladowski, President, Worldwise Ventures; Jens Müller, Founder and CEO, TBench.Solutions",
     highlight: true,
   },
   {

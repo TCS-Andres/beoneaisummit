@@ -50,6 +50,13 @@ const speakers: Speaker[] = [
     bio: "An entrepreneur and transformation leader, Marcin empowers businesses to scale with AI, innovation, and forward-thinking leadership.",
   },
   {
+    name: "Jens Müller",
+    title: "Founder and CEO, TBench.Solutions",
+    session: "Panel: Practical AI Strategies for Business Growth",
+    photo: "/speakers/jens-muller.webp",
+    bio: "Jens brings deep engineering expertise from the automotive industry, holding multiple patents and years of experience designing scalable, mission-critical systems. He is founder and CEO of TBench.Solutions, a gold-certified Preferred Design House of Infineon Technologies that provides consulting and system development for automotive and industrial applications and builds its own advanced boards for MCUs, APUs, and FPGAs.",
+  },
+  {
     name: "Lilia Restrepo",
     title: "Director, Business Intelligence, Kaufman Rossin",
     session: "AI Systems for Entrepreneurs",
