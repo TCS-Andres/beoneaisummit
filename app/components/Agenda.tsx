@@ -55,7 +55,8 @@ const agenda: AgendaItem[] = [
     title: "The Miami AI Debate",
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
-    speaker: "Christina Costanzo, Director, Business Transformation, Embark",
+    speaker:
+      "Christina Costanzo, Director, Business Transformation, Embark; Luis Pagán, Director of Organizational Effectiveness, Branches",
     highlight: true,
   },
   {
@@ -77,7 +78,7 @@ const agenda: AgendaItem[] = [
     title: "Designated AI",
     detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
     speaker:
-      "Tarik Safouan, Director, Barry AI Center; Marcin Ladowski, President, Worldwise Ventures; Jens Müller, Founder and CEO, TBench.Solutions",
+      "Tarik Safouan, Director, Barry AI Center; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
     highlight: true,
   },
   {

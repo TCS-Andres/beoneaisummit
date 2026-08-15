@@ -43,8 +43,15 @@ const speakers: Speaker[] = [
     bio: "Christina leads digital transformation, data and analytics, and AI implementation at Embark, helping private equity-backed and mid-market companies replace fragmented, manual processes with integrated systems built on data and automation. Her background spans accounting and advisory, giving her fluency in both business strategy and technical implementation.",
   },
   {
+    name: "Luis Pagán",
+    title: "Director of Organizational Effectiveness, Branches",
+    session: "The Miami AI Debate",
+    photo: "/speakers/luis-pagan.webp",
+    bio: "Luis Pagán is Director of Organizational Effectiveness at Branches, a Miami nonprofit that partners with families to build educational and financial assets, community, and hope. He leads the organization's AI adoption on the conviction that people are the priority and technology exists so we can reclaim time for deep human connection. A natural bridge-builder guided by curiosity and wonder, he helps teams see each other clearly enough to collaborate.",
+  },
+  {
     name: "Marcin Ladowski",
-    title: "President, Worldwise Ventures",
+    title: "CEO & Co-Founder, HUVA",
     session: "Panel: Practical AI Strategies for Business Growth",
     photo: "/speakers/marcin-ladowski.webp",
     bio: "An entrepreneur and transformation leader, Marcin empowers businesses to scale with AI, innovation, and forward-thinking leadership.",
