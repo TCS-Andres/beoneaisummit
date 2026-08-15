@@ -89,7 +89,7 @@ const speakers: Speaker[] = [
     title:
       "AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect",
     session: "Panel: Leadership in the Age of AI",
-    photo: "/speakers/adriana-madrinan.webp",
+    photo: "/speakers/adriana-madrinan-v2.webp",
     bio: "With 15+ years in corporate America and 8+ years supporting entrepreneurs across the U.S. and Latin America, Adriana helps small business owners redesign business models, clarify strategy, and build growth systems for the AI era. She has trained 1,500+ entrepreneurs and designed 100+ experiential courses, including her framework The Business Model Canvas Reimagined with AI.",
   },
   {
