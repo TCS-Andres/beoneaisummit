@@ -109,6 +109,32 @@ h4 {
   }
 }
 
+/* Sponsor logo marquee: track holds two copies, so -50% loops seamlessly */
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.marquee-track {
+  animation: marquee 38s linear infinite;
+  width: max-content;
+}
+
+.marquee:hover .marquee-track,
+.marquee:focus-within .marquee-track {
+  animation-play-state: paused;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation: none;
+  }
+}
+
 /* Scroll-reveal: elements fade and rise into view */
 [data-reveal] {
   opacity: 0;

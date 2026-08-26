@@ -50,6 +50,14 @@ const speakers: Speaker[] = [
     bio: "Luis Pagán is Director of Organizational Effectiveness at Branches, a Miami nonprofit that partners with families to build educational and financial assets, community, and hope. He leads the organization's AI adoption on the conviction that people are the priority and technology exists so we can reclaim time for deep human connection. A natural bridge-builder guided by curiosity and wonder, he helps teams see each other clearly enough to collaborate.",
   },
   {
+    name: "Dr. Sarah Lewis",
+    title:
+      "Founding Director, Center for Excellence in Teaching and Learning, Barry University",
+    session: "The Miami AI Debate",
+    photo: "/speakers/sarah-lewis.webp",
+    bio: "Sarah Lewis, PhD, is a social work scholar advancing the integration of AI into higher education through principled, systems-level design. As Founding Director of the Center for Excellence in Teaching and Learning and Associate Professor of Social Work at Barry University, she works at the intersection of pedagogy, ethics, and emerging technology. Her AI-informed assessment methods use AI not to replace human judgment but to deepen it, making student learning visible in real time.",
+  },
+  {
     name: "Marcin Ladowski",
     title: "CEO & Co-Founder, HUVA",
     session: "Panel: Practical AI Strategies for Business Growth",
