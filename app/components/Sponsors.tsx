@@ -10,9 +10,16 @@ const tiers: { tier: string; blurb: string; sponsors: Sponsor[] }[] = [
     sponsors: [{ name: "PNC", logo: "/sponsors/pnc.webp" }],
   },
   {
-    tier: "Impact Partner",
+    tier: "Impact Partners",
     blurb: "Expanding access and opportunity for Miami-Dade businesses.",
-    sponsors: [{ name: "Seacoast Bank", logo: "/sponsors/seacoast.webp" }],
+    sponsors: [
+      {
+        name: "Xero",
+        logo: "/sponsors/xero.webp",
+        logoClassName: "max-h-[4.5rem]",
+      },
+      { name: "Seacoast Bank", logo: "/sponsors/seacoast.webp" },
+    ],
   },
   {
     tier: "Community Partners",
@@ -22,11 +29,6 @@ const tiers: { tier: string; blurb: string; sponsors: Sponsor[] }[] = [
       {
         name: "Dade County Federal Credit Union",
         logo: "/sponsors/dade-county-fcu.webp",
-      },
-      {
-        name: "Xero",
-        logo: "/sponsors/xero.webp",
-        logoClassName: "max-h-[4.5rem]",
       },
     ],
   },
