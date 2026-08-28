@@ -1,3 +1,23 @@
+import Image from "next/image";
+
+const debaters = [
+  {
+    name: "Christina Costanzo",
+    title: "Director, Business Transformation, Embark",
+    photo: "/speakers/christina-costanzo.webp",
+  },
+  {
+    name: "Luis Pagán",
+    title: "Director of Organizational Effectiveness, Branches",
+    photo: "/speakers/luis-pagan.webp",
+  },
+  {
+    name: "Dr. Sarah Lewis",
+    title: "Founding Director, CETL, Barry University",
+    photo: "/speakers/sarah-lewis.webp",
+  },
+];
+
 export default function Debate() {
   return (
     <section className="relative overflow-hidden">
@@ -12,7 +32,7 @@ export default function Debate() {
       <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-24">
         <div data-reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
-            Signature Event · 11:00 AM
+            Signature Event · 10:40 AM
           </p>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
             The Miami AI Debate
@@ -35,7 +55,33 @@ export default function Debate() {
             The Motion
           </footer>
         </blockquote>
-        <p className="mx-auto mt-8 max-w-2xl text-sm leading-relaxed text-muted">
+
+        <div data-reveal style={{ transitionDelay: "180ms" }} className="mt-12">
+          <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
+            The Debaters
+          </p>
+          <ul className="mt-6 flex flex-wrap items-start justify-center gap-x-10 gap-y-8">
+            {debaters.map((d) => (
+              <li key={d.name} className="w-40">
+                <Image
+                  src={d.photo}
+                  alt={d.name}
+                  width={160}
+                  height={160}
+                  className="mx-auto h-20 w-20 rounded-full object-cover object-top ring-2 ring-accent/40"
+                />
+                <p className="mt-3 font-heading text-sm font-semibold text-ink">
+                  {d.name}
+                </p>
+                <p className="mt-0.5 text-xs leading-snug text-muted">
+                  {d.title}
+                </p>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        <p className="mx-auto mt-10 max-w-2xl text-sm leading-relaxed text-muted">
           The objective is not division but thoughtful inquiry. By examining
           both sides, participants gain a deeper appreciation for the choices
           that will shape the future of AI.

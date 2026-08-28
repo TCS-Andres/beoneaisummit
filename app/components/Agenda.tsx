@@ -56,7 +56,7 @@ const agenda: AgendaItem[] = [
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
     speaker:
-      "Christina Costanzo, Director, Business Transformation, Embark; Luis Pagán, Director of Organizational Effectiveness, Branches",
+      "Christina Costanzo, Director, Business Transformation, Embark; Luis Pagán, Director of Organizational Effectiveness, Branches; Dr. Sarah Lewis, Founding Director, Center for Excellence in Teaching and Learning, Barry University",
     highlight: true,
   },
   {
