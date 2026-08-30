@@ -16,6 +16,11 @@ const debaters = [
     title: "Founding Director, CETL, Barry University",
     photo: "/speakers/sarah-lewis.webp",
   },
+  {
+    name: "Sam Shaqour",
+    title: "Co-Founder and CEO, Patterned",
+    photo: "/speakers/sam-shaqour.webp",
+  },
 ];
 
 export default function Debate() {

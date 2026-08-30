@@ -56,7 +56,7 @@ const agenda: AgendaItem[] = [
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
     speaker:
-      "Christina Costanzo, Director, Business Transformation, Embark; Luis Pagán, Director of Organizational Effectiveness, Branches; Dr. Sarah Lewis, Founding Director, Center for Excellence in Teaching and Learning, Barry University",
+      "Christina Costanzo, Director, Business Transformation, Embark; Luis Pagán, Director of Organizational Effectiveness, Branches; Dr. Sarah Lewis, Founding Director, Center for Excellence in Teaching and Learning, Barry University; Sam Shaqour, Co-Founder and CEO, Patterned",
     highlight: true,
   },
   {
@@ -78,7 +78,7 @@ const agenda: AgendaItem[] = [
     title: "Designated AI",
     detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
     speaker:
-      "Tarik Safouan, Director, Barry AI Center; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
+      "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
     highlight: true,
   },
   {
@@ -105,6 +105,7 @@ const agenda: AgendaItem[] = [
         time: "2:15 PM",
         title: "AI and the Future of Small Business Finance",
         subtitle: "Know your numbers, empower your business.",
+        speaker: "Alex Keeble, Senior Account Executive, Xero",
       },
       {
         time: "2:35 PM",
@@ -129,6 +130,8 @@ const agenda: AgendaItem[] = [
       {
         time: "3:15 PM",
         title: "AI and the Future of Economic Opportunity",
+        speaker:
+          "Eduardo Frias, Director of Professional Services, Shopify",
       },
       {
         time: "3:30 PM",
@@ -139,7 +142,8 @@ const agenda: AgendaItem[] = [
       {
         time: "3:45 PM",
         title: "The Future Is Ours to Build",
-        speaker: "Tarik Safouan, Director, Barry AI Center",
+        speaker:
+          "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University",
       },
     ],
   },

@@ -58,6 +58,13 @@ const speakers: Speaker[] = [
     bio: "Sarah Lewis, PhD, is a social work scholar advancing the integration of AI into higher education through principled, systems-level design. As Founding Director of the Center for Excellence in Teaching and Learning and Associate Professor of Social Work at Barry University, she works at the intersection of pedagogy, ethics, and emerging technology. Her AI-informed assessment methods use AI not to replace human judgment but to deepen it, making student learning visible in real time.",
   },
   {
+    name: "Sam Shaqour",
+    title: "Co-Founder and CEO, Patterned",
+    session: "The Miami AI Debate",
+    photo: "/speakers/sam-shaqour.webp",
+    bio: "Sam Shaqour is Co-Founder and CEO of Patterned, a Miami-based AI platform built on a simple belief: where you start should not determine where you end up. Patterned gives workforce and social service case managers one system to guide people through employment and social services, built on an unapologetically caring approach to technology. The platform is currently piloting with public sector workforce organizations across South Florida.",
+  },
+  {
     name: "Marcin Ladowski",
     title: "CEO & Co-Founder, HUVA",
     session: "Panel: Practical AI Strategies for Business Growth",
@@ -86,6 +93,13 @@ const speakers: Speaker[] = [
     bio: "Andres helps small businesses cut through marketing noise to connect authentically with customers. His approach focuses on clarity, consistency, and maintaining trust, even while leveraging AI tools.",
   },
   {
+    name: "Alex Keeble",
+    title: "Senior Account Executive, Xero",
+    session: "AI and the Future of Small Business Finance",
+    photo: "/speakers/alex-keeble.webp",
+    bio: "Alex Keeble is a Senior Account Executive at Xero with a background in accounting, financial management, and business technology. He works with accounting professionals and business leaders to help them adopt technology and build more efficient businesses. Passionate about the intersection of finance and technology, Alex is particularly interested in how AI can make financial information more accessible and actionable for small business owners.",
+  },
+  {
     name: "Dr. Camille Samuel",
     title: "Campus Registrar, UWI",
     session: "Panel: Leadership in the Age of AI",
@@ -108,6 +122,13 @@ const speakers: Speaker[] = [
     bio: "Ria Karim is an executive leader, strategist, and governance professional with over 20 years across government, technology, and national development. A cum laude graduate of Georgetown University and creator of the D'Junction Carnival platform, she has mentored startups through George Washington University's Lean Startup programme and lectured at UWI and Lok Jack GSB. She serves as Chairman of iGovTT, advancing Trinidad & Tobago's digital transformation.",
   },
   {
+    name: "Eduardo Frias",
+    title: "Director of Professional Services, Shopify",
+    session: "AI and the Future of Economic Opportunity",
+    photo: "/speakers/eduardo-frias.webp",
+    bio: "Eduardo Frias is Director of Professional Services at Shopify, with over 30 years in the technology sector. He has served as head of Technology, CIO, and CTO across organizations ranging from startups to Fortune 50 companies, specializing in large-scale digital transformation and scaling technology teams to create new channels and revenue streams. He holds degrees in Computer Science and Software Engineering from Carnegie Mellon University and the Universidad de Buenos Aires, and lives in Miami.",
+  },
+  {
     name: "Dr. Katsiaryna Matusevich",
     title: "Professor of Human Resource Development, Barry University",
     session: "Human Relevance Development: The Missing Piece in AI Strategy",
@@ -116,18 +137,15 @@ const speakers: Speaker[] = [
   },
   {
     name: "Tarik Safouan",
-    title: "Director, Barry AI Center",
+    title: "Senior Director of Innovation and Technology Education, Barry University",
     session: "The Future Is Ours to Build",
     photo: "/speakers/tarik-safouan.webp",
-    bio: "As Director of Barry University's AI Center, Tarik bridges cutting-edge AI research with practical business applications. He specializes in making AI accessible and actionable for organizations of all sizes.",
+    bio: "Tarik Safouan is Senior Director of Innovation and Technology Education at Barry University, where he leads the AI Center and its work connecting AI education, applied research, and real-world business innovation. He brings more than two decades of experience across technology, digital transformation, and emerging technologies, with a focus on helping organizations turn AI into practical business value. He also teaches AI strategy and analytics in Barry University's MBA program.",
   },
 ];
 
 // Sessions whose presenters are still being finalized, in program order.
-const comingSoon = [
-  "AI and the Future of Small Business Finance",
-  "AI and the Future of Economic Opportunity",
-];
+const comingSoon: string[] = [];
 
 export default function Speakers() {
   return (
