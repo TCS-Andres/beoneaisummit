@@ -100,6 +100,13 @@ const speakers: Speaker[] = [
     bio: "Alex Keeble is a Senior Account Executive at Xero with a background in accounting, financial management, and business technology. He works with accounting professionals and business leaders to help them adopt technology and build more efficient businesses. Passionate about the intersection of finance and technology, Alex is particularly interested in how AI can make financial information more accessible and actionable for small business owners.",
   },
   {
+    name: "Eduardo Frias",
+    title: "Director of Professional Services, Shopify",
+    session: "The New Rules of Commerce in the Age of AI",
+    photo: "/speakers/eduardo-frias.webp",
+    bio: "Eduardo Frias is Director of Professional Services at Shopify, with over 30 years in the technology sector. He has served as head of Technology, CIO, and CTO across organizations ranging from startups to Fortune 50 companies, specializing in large-scale digital transformation and scaling technology teams to create new channels and revenue streams. He holds degrees in Computer Science and Software Engineering from Carnegie Mellon University and the Universidad de Buenos Aires, and lives in Miami.",
+  },
+  {
     name: "Dr. Camille Samuel",
     title: "Campus Registrar, UWI",
     session: "Panel: Leadership in the Age of AI",
@@ -122,13 +129,6 @@ const speakers: Speaker[] = [
     bio: "Ria Karim is an executive leader, strategist, and governance professional with over 20 years across government, technology, and national development. A cum laude graduate of Georgetown University and creator of the D'Junction Carnival platform, she has mentored startups through George Washington University's Lean Startup programme and lectured at UWI and Lok Jack GSB. She serves as Chairman of iGovTT, advancing Trinidad & Tobago's digital transformation.",
   },
   {
-    name: "Eduardo Frias",
-    title: "Director of Professional Services, Shopify",
-    session: "AI and the Future of Economic Opportunity",
-    photo: "/speakers/eduardo-frias.webp",
-    bio: "Eduardo Frias is Director of Professional Services at Shopify, with over 30 years in the technology sector. He has served as head of Technology, CIO, and CTO across organizations ranging from startups to Fortune 50 companies, specializing in large-scale digital transformation and scaling technology teams to create new channels and revenue streams. He holds degrees in Computer Science and Software Engineering from Carnegie Mellon University and the Universidad de Buenos Aires, and lives in Miami.",
-  },
-  {
     name: "Dr. Katsiaryna Matusevich",
     title: "Professor of Human Resource Development, Barry University",
     session: "Human Relevance Development: The Missing Piece in AI Strategy",
@@ -145,7 +145,7 @@ const speakers: Speaker[] = [
 ];
 
 // Sessions whose presenters are still being finalized, in program order.
-const comingSoon: string[] = [];
+const comingSoon = ["AI and the Future of Economic Opportunity"];
 
 export default function Speakers() {
   return (

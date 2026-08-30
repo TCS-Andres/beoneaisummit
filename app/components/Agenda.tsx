@@ -108,6 +108,13 @@ const agenda: AgendaItem[] = [
         speaker: "Alex Keeble, Senior Account Executive, Xero",
       },
       {
+        time: "2:25 PM",
+        title: "The New Rules of Commerce in the Age of AI",
+        subtitle:
+          "How Small Businesses Will Be Discovered, Chosen and Built to Grow",
+        speaker: "Eduardo Frias, Director of Professional Services, Shopify",
+      },
+      {
         time: "2:35 PM",
         title: "DX Lab AI Startup Pitch Competition",
         subtitle: "Presented by the Barry University DX Lab.",
@@ -130,8 +137,6 @@ const agenda: AgendaItem[] = [
       {
         time: "3:15 PM",
         title: "AI and the Future of Economic Opportunity",
-        speaker:
-          "Eduardo Frias, Director of Professional Services, Shopify",
       },
       {
         time: "3:30 PM",
