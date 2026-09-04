@@ -61,17 +61,18 @@ const agenda: AgendaItem[] = [
   },
   {
     time: "11:40 AM",
-    title: "From Conversation to Conversion",
-    detail:
-      "Featured Address: How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
-    highlight: true,
-  },
-  {
-    time: "11:50 AM",
     title: "Panel Discussion: Leadership in the Age of AI",
     detail: "Navigating Transformation, Opportunity and Human Impact.",
     speaker:
       "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect; Ria Karim, Chairman, iGovTT",
+    highlight: true,
+  },
+  {
+    time: "12:10 PM",
+    title: "Designated AI",
+    detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
+    speaker:
+      "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
     highlight: true,
   },
   {
@@ -80,17 +81,16 @@ const agenda: AgendaItem[] = [
   },
   {
     time: "1:30 PM",
-    title: "The AI-Powered Customer",
+    title: "From Conversation to Conversion",
     detail:
-      "Panel Discussion: What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
+      "Featured Address: How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
     highlight: true,
   },
   {
     time: "1:50 PM",
-    title: "Designated AI",
-    detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
-    speaker:
-      "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
+    title: "The AI-Powered Customer",
+    detail:
+      "Panel Discussion: What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
     highlight: true,
   },
   {
