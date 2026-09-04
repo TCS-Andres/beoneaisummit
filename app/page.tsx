@@ -6,6 +6,7 @@ import Pillars from "./components/Pillars";
 import Experiences from "./components/Experiences";
 import Debate from "./components/Debate";
 import Panel from "./components/Panel";
+import DesignatedAi from "./components/DesignatedAi";
 import Agenda from "./components/Agenda";
 import Speakers from "./components/Speakers";
 import Venue from "./components/Venue";
@@ -25,6 +26,7 @@ export default function Home() {
         <Experiences />
         <Debate />
         <Panel />
+        <DesignatedAi />
         <Agenda />
         <Speakers />
         <Venue />

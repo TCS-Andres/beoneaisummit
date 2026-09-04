@@ -65,8 +65,8 @@ export default function Debate() {
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
             Moderated By
           </p>
-          <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border border-white/10 bg-white/[0.04] px-6 py-4 text-left backdrop-blur-md">
-            <span className="relative block h-24 w-24 shrink-0 overflow-hidden rounded-full ring-2 ring-accent/40">
+          <div className="mt-6">
+            <span className="relative mx-auto block h-24 w-24 shrink-0 overflow-hidden rounded-full ring-2 ring-accent/40">
               <Image
                 src="/speakers/bogdan-daraban.webp"
                 alt="Dr. Bogdan Daraban"
@@ -75,14 +75,12 @@ export default function Debate() {
                 className="scale-[1.15] object-cover object-[50%_30%]"
               />
             </span>
-            <div>
-              <p className="font-heading text-sm font-semibold text-ink">
-                Dr. Bogdan Daraban
-              </p>
-              <p className="mt-0.5 text-xs leading-snug text-muted">
-                Dean, Andreas School of Business
-              </p>
-            </div>
+            <p className="mt-3 font-heading text-sm font-semibold text-ink">
+              Dr. Bogdan Daraban
+            </p>
+            <p className="mt-0.5 text-xs leading-snug text-muted">
+              Dean, Andreas School of Business
+            </p>
           </div>
         </div>
 

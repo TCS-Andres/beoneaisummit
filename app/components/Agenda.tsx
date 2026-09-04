@@ -72,7 +72,7 @@ const agenda: AgendaItem[] = [
     title: "Designated AI",
     detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
     speaker:
-      "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
+      "Moderated by Christina Costanzo, Director, Business Transformation, Embark. Panelists: Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
     highlight: true,
   },
   {
