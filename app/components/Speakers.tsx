@@ -145,7 +145,7 @@ const speakers: Speaker[] = [
 ];
 
 // Sessions whose presenters are still being finalized, in program order.
-const comingSoon = ["AI and the Future of Economic Opportunity"];
+const comingSoon: string[] = [];
 
 export default function Speakers() {
   return (

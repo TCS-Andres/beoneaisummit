@@ -123,30 +123,26 @@ const agenda: AgendaItem[] = [
         speaker: "Eduardo Frias, Director of Professional Services, Shopify",
       },
       {
-        time: "3:25 PM",
+        time: "3:35 PM",
         title: "DX Lab AI Startup Pitch Competition",
         subtitle: "Presented by the Barry University DX Lab.",
       },
     ],
   },
   {
-    time: "3:40 PM",
+    time: "3:50 PM",
     title: "Leadership, AI, & Transformation",
     location: "Plenary Room",
     highlight: true,
     sessions: [
       {
-        time: "3:40 PM",
-        title: "AI and the Future of Economic Opportunity",
-      },
-      {
-        time: "3:55 PM",
+        time: "3:50 PM",
         title: "Human Relevance Development: The Missing Piece in AI Strategy",
         speaker:
           "Dr. Katsiaryna Matusevich, Professor of Human Resource Development, Barry University",
       },
       {
-        time: "4:10 PM",
+        time: "4:05 PM",
         title: "The Future Is Ours to Build",
         speaker:
           "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University",
@@ -154,11 +150,11 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "4:25 PM",
+    time: "4:20 PM",
     title: "Closing Reflections",
   },
   {
-    time: "4:55 PM",
+    time: "4:50 PM",
     title: "Networking Reception",
     detail:
       "Innovation Expo & Trade Fair reception, speaker meet-and-greet, sponsor engagement, partnership discussions, and the student innovation showcase.",
