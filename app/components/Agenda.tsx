@@ -68,17 +68,10 @@ const agenda: AgendaItem[] = [
   },
   {
     time: "11:50 AM",
-    title: "The AI-Powered Customer",
-    detail:
-      "Panel Discussion: What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
-    highlight: true,
-  },
-  {
-    time: "12:10 PM",
-    title: "Designated AI",
-    detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
+    title: "Panel Discussion: Leadership in the Age of AI",
+    detail: "Navigating Transformation, Opportunity and Human Impact.",
     speaker:
-      "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
+      "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect; Ria Karim, Chairman, iGovTT",
     highlight: true,
   },
   {
@@ -87,65 +80,73 @@ const agenda: AgendaItem[] = [
   },
   {
     time: "1:30 PM",
+    title: "The AI-Powered Customer",
+    detail:
+      "Panel Discussion: What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
+    highlight: true,
+  },
+  {
+    time: "1:50 PM",
+    title: "Designated AI",
+    detail: "Panel Discussion: Practical AI Strategies for Business Growth.",
+    speaker:
+      "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University; Marcin Ladowski, CEO & Co-Founder, HUVA; Jens Müller, Founder and CEO, TBench.Solutions",
+    highlight: true,
+  },
+  {
+    time: "2:10 PM",
     title: "Entrepreneur Learning Track",
     location: "Andreas 111, Plenary Room",
     sessions: [
       {
-        time: "1:35 PM",
+        time: "2:15 PM",
         title: "AI Systems for Entrepreneurs: automating the work that slows you down",
         speaker: "Lilia Restrepo, Director of Business Intelligence, Kaufman Rossin",
       },
       {
-        time: "1:55 PM",
+        time: "2:35 PM",
         title: "Building Your First AI Employee",
         speaker:
           "Andres Diaz, Fractional Chief Marketing Officer, The Creative Strategist",
       },
       {
-        time: "2:15 PM",
+        time: "2:55 PM",
         title: "AI and the Future of Small Business Finance",
         subtitle: "Know your numbers, empower your business.",
         speaker: "Alex Keeble, Senior Account Executive, Xero",
       },
       {
-        time: "2:25 PM",
+        time: "3:05 PM",
         title: "The New Rules of Commerce in the Age of AI",
         subtitle:
           "How Small Businesses Will Be Discovered, Chosen and Built to Grow",
         speaker: "Eduardo Frias, Director of Professional Services, Shopify",
       },
       {
-        time: "2:35 PM",
+        time: "3:15 PM",
         title: "DX Lab AI Startup Pitch Competition",
         subtitle: "Presented by the Barry University DX Lab.",
       },
     ],
   },
   {
-    time: "2:50 PM",
+    time: "3:30 PM",
     title: "Leadership, AI, & Transformation",
     location: "Plenary Room",
     highlight: true,
     sessions: [
       {
-        time: "2:50 PM",
-        title: "Panel Discussion: Leadership in the Age of AI",
-        subtitle: "Navigating Transformation, Opportunity and Human Impact",
-        speaker:
-          "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect; Ria Karim, Chairman, iGovTT",
-      },
-      {
-        time: "3:15 PM",
+        time: "3:30 PM",
         title: "AI and the Future of Economic Opportunity",
       },
       {
-        time: "3:30 PM",
+        time: "3:45 PM",
         title: "Human Relevance Development: The Missing Piece in AI Strategy",
         speaker:
           "Dr. Katsiaryna Matusevich, Professor of Human Resource Development, Barry University",
       },
       {
-        time: "3:45 PM",
+        time: "4:00 PM",
         title: "The Future Is Ours to Build",
         speaker:
           "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University",
@@ -153,11 +154,11 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "4:00 PM",
+    time: "4:15 PM",
     title: "Closing Reflections",
   },
   {
-    time: "4:30 PM",
+    time: "4:45 PM",
     title: "Networking Reception",
     detail:
       "Innovation Expo & Trade Fair reception, speaker meet-and-greet, sponsor engagement, partnership discussions, and the student innovation showcase.",
