@@ -110,7 +110,7 @@ const speakers: Speaker[] = [
     name: "Dr. Selen Turner",
     title: "CEO, The Turner Connection",
     session: "Panel Host: Leadership in the Age of AI",
-    photo: "/speakers/selen-turner.webp",
+    photo: "/speakers/selen-turner-v2.webp",
     bio: "Dr. Selen Turner is an organizational psychologist and CEO of The Turner Connection, with more than 20 years helping organizations build stronger cultures, develop leaders, and drive innovation. She is a Partner at Advantage Performance Group, founder of Thrive Forward: Leaders' Forum, and author of the forthcoming book Unique Belonging: Shaping Human-Centered Cultures to Unlock Innovation. She teaches at Florida Atlantic University and Barry University and holds a PhD in Industrial and Organizational Psychology.",
   },
   {

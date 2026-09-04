@@ -48,7 +48,7 @@ export default function Panel() {
           </p>
           <div className="mt-6">
             <Image
-              src="/speakers/selen-turner.webp"
+              src="/speakers/selen-turner-v2.webp"
               alt="Dr. Selen Turner"
               width={160}
               height={160}
