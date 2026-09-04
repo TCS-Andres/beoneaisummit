@@ -116,10 +116,10 @@ const speakers: Speaker[] = [
   {
     name: "Adriana Madrinan",
     title:
-      "AI-Enabled Business Model Innovation Strategist & Entrepreneurship Program Architect",
+      "Creator of The Madrinan Playground\u2122 | Redesign, Scale & Multiply for the AI Era",
     session: "Panel: Leadership in the Age of AI",
     photo: "/speakers/adriana-madrinan-v2.webp",
-    bio: "With 15+ years in corporate America and 8+ years supporting entrepreneurs across the U.S. and Latin America, Adriana helps small business owners redesign business models, clarify strategy, and build growth systems for the AI era. She has trained 1,500+ entrepreneurs and designed 100+ experiential courses, including her framework The Business Model Canvas Reimagined with AI.",
+    bio: "Adriana Madrinan is an industrial designer by training who designs how a business actually works and how its owner decides. She is the creator of The Madrinan Playground\u2122, her independent practice under Alineata LLC, where small business owners redesign, scale, and multiply for the AI era. Across the U.S. and Latin America she has partnered with organizations that support small businesses, and her research into how owners think and decide with AI has been supported by Branches and Es Tiempo de Avanzar.",
   },
   {
     name: "Ria Karim",
