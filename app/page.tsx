@@ -5,6 +5,7 @@ import Vision from "./components/Vision";
 import Pillars from "./components/Pillars";
 import Experiences from "./components/Experiences";
 import Debate from "./components/Debate";
+import Panel from "./components/Panel";
 import Agenda from "./components/Agenda";
 import Speakers from "./components/Speakers";
 import Venue from "./components/Venue";
@@ -23,6 +24,7 @@ export default function Home() {
         <Pillars />
         <Experiences />
         <Debate />
+        <Panel />
         <Agenda />
         <Speakers />
         <Venue />

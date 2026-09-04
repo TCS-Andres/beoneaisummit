@@ -107,6 +107,13 @@ const speakers: Speaker[] = [
     bio: "Eduardo Frias is Director of Professional Services at Shopify, with over 30 years in the technology sector. He has served as head of Technology, CIO, and CTO across organizations ranging from startups to Fortune 50 companies, specializing in large-scale digital transformation and scaling technology teams to create new channels and revenue streams. He holds degrees in Computer Science and Software Engineering from Carnegie Mellon University and the Universidad de Buenos Aires, and lives in Miami.",
   },
   {
+    name: "Dr. Selen Turner",
+    title: "CEO, The Turner Connection",
+    session: "Panel Host: Leadership in the Age of AI",
+    photo: "/speakers/selen-turner.webp",
+    bio: "Dr. Selen Turner is an organizational psychologist and CEO of The Turner Connection, with more than 20 years helping organizations build stronger cultures, develop leaders, and drive innovation. She is a Partner at Advantage Performance Group, founder of Thrive Forward: Leaders' Forum, and author of the forthcoming book Unique Belonging: Shaping Human-Centered Cultures to Unlock Innovation. She teaches at Florida Atlantic University and Barry University and holds a PhD in Industrial and Organizational Psychology.",
+  },
+  {
     name: "Dr. Camille Samuel",
     title: "Campus Registrar, UWI",
     session: "Panel: Leadership in the Age of AI",

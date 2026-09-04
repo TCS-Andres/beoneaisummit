@@ -64,7 +64,7 @@ const agenda: AgendaItem[] = [
     title: "Panel Discussion: Leadership in the Age of AI",
     detail: "Navigating Transformation, Opportunity and Human Impact.",
     speaker:
-      "Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, Creator of The Madrinan Playground\u2122; Ria Karim, Chairman, iGovTT",
+      "Hosted by Dr. Selen Turner, CEO, The Turner Connection. Panelists: Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, Creator of The Madrinan Playground\u2122; Ria Karim, Chairman, iGovTT",
     highlight: true,
   },
   {
