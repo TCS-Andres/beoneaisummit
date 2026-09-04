@@ -111,42 +111,42 @@ const agenda: AgendaItem[] = [
       },
       {
         time: "2:55 PM",
-        title: "AI and the Future of Small Business Finance",
-        subtitle: "Know your numbers, empower your business.",
+        title: "Accountable Intelligence",
+        subtitle: "Get Started, Work Smarter with Xero's AI Tools",
         speaker: "Alex Keeble, Senior Account Executive, Xero",
       },
       {
-        time: "3:05 PM",
+        time: "3:15 PM",
         title: "The New Rules of Commerce in the Age of AI",
         subtitle:
           "How Small Businesses Will Be Discovered, Chosen and Built to Grow",
         speaker: "Eduardo Frias, Director of Professional Services, Shopify",
       },
       {
-        time: "3:15 PM",
+        time: "3:25 PM",
         title: "DX Lab AI Startup Pitch Competition",
         subtitle: "Presented by the Barry University DX Lab.",
       },
     ],
   },
   {
-    time: "3:30 PM",
+    time: "3:40 PM",
     title: "Leadership, AI, & Transformation",
     location: "Plenary Room",
     highlight: true,
     sessions: [
       {
-        time: "3:30 PM",
+        time: "3:40 PM",
         title: "AI and the Future of Economic Opportunity",
       },
       {
-        time: "3:45 PM",
+        time: "3:55 PM",
         title: "Human Relevance Development: The Missing Piece in AI Strategy",
         speaker:
           "Dr. Katsiaryna Matusevich, Professor of Human Resource Development, Barry University",
       },
       {
-        time: "4:00 PM",
+        time: "4:10 PM",
         title: "The Future Is Ours to Build",
         speaker:
           "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University",
@@ -154,11 +154,11 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "4:15 PM",
+    time: "4:25 PM",
     title: "Closing Reflections",
   },
   {
-    time: "4:45 PM",
+    time: "4:55 PM",
     title: "Networking Reception",
     detail:
       "Innovation Expo & Trade Fair reception, speaker meet-and-greet, sponsor engagement, partnership discussions, and the student innovation showcase.",

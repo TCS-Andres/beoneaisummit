@@ -95,7 +95,7 @@ const speakers: Speaker[] = [
   {
     name: "Alex Keeble",
     title: "Senior Account Executive, Xero",
-    session: "AI and the Future of Small Business Finance",
+    session: "Accountable Intelligence",
     photo: "/speakers/alex-keeble.webp",
     bio: "Alex Keeble is a Senior Account Executive at Xero with a background in accounting, financial management, and business technology. He works with accounting professionals and business leaders to help them adopt technology and build more efficient businesses. Passionate about the intersection of finance and technology, Alex is particularly interested in how AI can make financial information more accessible and actionable for small business owners.",
   },
