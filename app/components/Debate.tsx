@@ -92,13 +92,13 @@ export default function Debate() {
           </p>
           <ul className="mt-6 flex flex-wrap items-start justify-center gap-x-10 gap-y-8">
             {debaters.map((d) => (
-              <li key={d.name} className="w-40">
+              <li key={d.name} className="w-40 shrink-0">
                 <Image
                   src={d.photo}
                   alt={d.name}
                   width={160}
                   height={160}
-                  className="mx-auto h-20 w-20 rounded-full object-cover object-top ring-2 ring-accent/40"
+                  className="mx-auto h-24 w-24 shrink-0 rounded-full object-cover object-top ring-2 ring-accent/40"
                 />
                 <p className="mt-3 font-heading text-sm font-semibold text-ink">
                   {d.name}
