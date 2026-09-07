@@ -10,6 +10,7 @@ import DesignatedAi from "./components/DesignatedAi";
 import Agenda from "./components/Agenda";
 import Speakers from "./components/Speakers";
 import Venue from "./components/Venue";
+import Expo from "./components/Expo";
 import Sponsors from "./components/Sponsors";
 import RegisterCta from "./components/RegisterCta";
 import Footer from "./components/Footer";
@@ -30,6 +31,7 @@ export default function Home() {
         <Agenda />
         <Speakers />
         <Venue />
+        <Expo />
         <Sponsors />
         <RegisterCta />
       </main>
