@@ -85,7 +85,7 @@ const agenda: AgendaItem[] = [
     detail:
       "Featured Address: How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
     highlight: true,
-    speaker: "Glenn, Channel Sales Executive, Infobip",
+    speaker: "Glenn Stansbury, National Channel Manager, Infobip",
   },
   {
     time: "1:50 PM",

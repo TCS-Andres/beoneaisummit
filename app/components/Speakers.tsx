@@ -79,11 +79,11 @@ const speakers: Speaker[] = [
     bio: "Jens brings deep engineering expertise from the automotive industry, holding multiple patents and years of experience designing scalable, mission-critical systems. He is founder and CEO of TBench.Solutions, a gold-certified Preferred Design House of Infineon Technologies that provides consulting and system development for automotive and industrial applications and builds its own advanced boards for MCUs, APUs, and FPGAs.",
   },
   {
-    name: "Glenn",
-    title: "Channel Sales Executive, Infobip",
+    name: "Glenn Stansbury",
+    title: "National Channel Manager, Infobip",
     session: "From Conversation to Conversion",
-    photo: "/speakers/glenn.webp",
-    bio: "Glenn is a channel sales executive at Infobip, the global cloud communications provider, with a strong record building, expanding, and scaling channel sales organizations regionally, nationally, and globally across the telecommunications industry. His work spans startups and new market expansion, managing multiple distribution channels, sales process development, recruiting and hiring, coaching, and people development.",
+    photo: "/speakers/glenn-stansbury.webp",
+    bio: "Glenn Stansbury is National Channel Manager at Infobip, a global leader in omnichannel engagement powering the messaging channels, tools, and solutions behind advanced customer engagement, authentication, and security. He brings a strong record of building, expanding, and scaling channel sales organizations regionally, nationally, and globally across telecommunications, spanning startups, new market expansion, multiple distribution channels, sales process development, coaching, and people development.",
   },
   {
     name: "Lilia Restrepo",
