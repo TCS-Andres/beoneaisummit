@@ -118,7 +118,7 @@ const agenda: AgendaItem[] = [
   },
   {
     time: "3:30 PM",
-    title: "Leadership, AI, & Transformation",
+    title: "People, AI, & Transformation",
     location: "Plenary Room",
     highlight: true,
     sessions: [
