@@ -37,7 +37,7 @@ export default function Debate() {
       <div className="relative mx-auto max-w-4xl px-4 py-20 text-center sm:px-6 sm:py-24">
         <div data-reveal>
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
-            Signature Event · 10:40 AM
+            Signature Event · 10:30 AM
           </p>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
             The Miami AI Debate

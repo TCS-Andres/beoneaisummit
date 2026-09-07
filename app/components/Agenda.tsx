@@ -44,7 +44,7 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "10:40 AM",
+    time: "10:30 AM",
     title: "The Miami AI Debate",
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
