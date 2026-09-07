@@ -28,27 +28,20 @@ const agenda: AgendaItem[] = [
     sessions: [
       {
         time: "10:00 AM",
-        title: "Welcome Remarks",
+        title: "Community, Shared Prosperity, and the AI Moment",
         speaker: "Brent McLaughlin, President & CEO, Branches Inc.",
       },
       {
-        time: "10:05 AM",
-        title: "Welcome Remarks",
+        time: "10:10 AM",
+        title: "AI for Good: The Opportunity Before Us",
         speaker: "Dr. Bogdan Daraban, Dean, Andreas School of Business",
       },
       {
-        time: "10:10 AM",
-        title: "Opening Address: The Day Ahead",
+        time: "10:20 AM",
+        title: "The Future We Choose: Building a Human-Centered AI Economy",
         speaker: "Steve Arman, Program Director, BE ONE",
       },
     ],
-  },
-  {
-    time: "10:20 AM",
-    title: "Signature Keynote Address",
-    detail:
-      "Building a Human-Centered AI Economy: Why Human Flourishing Must Guide the AI Era.",
-    highlight: true,
   },
   {
     time: "10:40 AM",

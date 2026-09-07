@@ -15,7 +15,7 @@ const speakers: Speaker[] = [
   {
     name: "Brent McLaughlin",
     title: "President and CEO, Branches Inc.",
-    session: "Welcome Remarks",
+    session: "Community, Shared Prosperity, and the AI Moment",
     photo: "/speakers/brent-mclaughlin.webp",
     bio: "As President and CEO of Branches, Brent leads an organization that partners with families to help them build education and financial assets, and serving the small business community in Miami is a top priority. Branches is proud to walk alongside entrepreneurs every day, understanding the real challenges of building a business and providing the tools and guidance they need to grow.",
   },
@@ -23,7 +23,7 @@ const speakers: Speaker[] = [
     name: "Dr. Bogdan Daraban",
     title:
       "Dean, Andreas School of Business and Vice Provost of Technology, Barry University",
-    session: "Welcome Remarks",
+    session: "AI for Good: The Opportunity Before Us",
     photo: "/speakers/bogdan-daraban.webp",
     imgClassName: "scale-[1.15] object-[50%_30%]",
     bio: "As Dean of the Andreas School of Business and Vice Provost of Technology at Barry University, Dr. Daraban champions academic leadership that drives innovation in AI, entrepreneurship, and technology education to empower future leaders.",
@@ -31,7 +31,7 @@ const speakers: Speaker[] = [
   {
     name: "Steve Arman",
     title: "Program Director, BE ONE",
-    session: "Opening Address: The Day Ahead",
+    session: "The Future We Choose: Building a Human-Centered AI Economy",
     photo: "/speakers/steve-arman.webp",
     bio: "Steve has spent years empowering underserved entrepreneurs in Miami-Dade. As Program Director of the BE ONE business development platform within Branches Inc., he understands the unique challenges micro-businesses face and how to overcome them.",
   },
