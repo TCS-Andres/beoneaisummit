@@ -85,64 +85,58 @@ const agenda: AgendaItem[] = [
     detail:
       "Featured Address: How AI is Transforming the Way Small Businesses Connect, Serve, and Grow.",
     highlight: true,
+    speaker: "Glenn, Channel Sales Executive, Infobip",
   },
   {
     time: "1:50 PM",
-    title: "The AI-Powered Customer",
-    detail:
-      "Panel Discussion: What Micro and Small Businesses Must Do Now to Compete for the Customer of Tomorrow.",
-    highlight: true,
-  },
-  {
-    time: "2:10 PM",
     title: "Entrepreneur Learning Track",
     location: "Andreas 111, Plenary Room",
     sessions: [
       {
-        time: "2:15 PM",
+        time: "1:55 PM",
         title: "AI Systems for Entrepreneurs: automating the work that slows you down",
         speaker: "Lilia Restrepo, Director of Business Intelligence, Kaufman Rossin",
       },
       {
-        time: "2:35 PM",
+        time: "2:15 PM",
         title: "Building Your First AI Employee",
         speaker:
           "Andres Diaz, Fractional Chief Marketing Officer, The Creative Strategist",
       },
       {
-        time: "2:55 PM",
+        time: "2:35 PM",
         title: "Accountable Intelligence",
         subtitle: "Get Started, Work Smarter with Xero's AI Tools",
         speaker: "Alex Keeble, Senior Account Executive, Xero",
       },
       {
-        time: "3:15 PM",
+        time: "2:55 PM",
         title: "The New Rules of Commerce in the Age of AI",
         subtitle:
           "How Small Businesses Will Be Discovered, Chosen and Built to Grow",
         speaker: "Eduardo Frias, Director of Professional Services, Shopify",
       },
       {
-        time: "3:35 PM",
+        time: "3:15 PM",
         title: "DX Lab AI Startup Pitch Competition",
         subtitle: "Presented by the Barry University DX Lab.",
       },
     ],
   },
   {
-    time: "3:50 PM",
+    time: "3:30 PM",
     title: "Leadership, AI, & Transformation",
     location: "Plenary Room",
     highlight: true,
     sessions: [
       {
-        time: "3:50 PM",
+        time: "3:30 PM",
         title: "Human Relevance Development: The Missing Piece in AI Strategy",
         speaker:
           "Dr. Katsiaryna Matusevich, Professor of Human Resource Development, Barry University",
       },
       {
-        time: "4:05 PM",
+        time: "3:45 PM",
         title: "The Future Is Ours to Build",
         speaker:
           "Tarik Safouan, Senior Director of Innovation and Technology Education, Barry University",
@@ -150,11 +144,11 @@ const agenda: AgendaItem[] = [
     ],
   },
   {
-    time: "4:20 PM",
+    time: "4:00 PM",
     title: "Closing Reflections",
   },
   {
-    time: "4:50 PM",
+    time: "4:30 PM",
     title: "Networking Reception",
     detail:
       "Innovation Expo & Trade Fair reception, speaker meet-and-greet, sponsor engagement, partnership discussions, and the student innovation showcase.",
