@@ -86,12 +86,6 @@ const exhibitors: Exhibitor[] = [
       "Miami-Dade County's small business initiative, anchored by the Strive305 Hub: a directory of county resources, the no-cost Micro Business Academy, guidance on RISE loans, workshops, mentorship, and grant listings.",
   },
   {
-    name: "Operation HOPE",
-    logos: ["/expo/operation-hope.webp"],
-    blurb:
-      "A national nonprofit for financial literacy and economic empowerment, offering free one-on-one financial coaching, credit and debt counseling, homeownership preparation, and small business coaching through HOPE Inside.",
-  },
-  {
     name: "Miami-Dade County Strategic Procurement",
     logos: ["/expo/miamidade-county.webp"],
     blurb:
