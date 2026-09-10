@@ -18,9 +18,8 @@ type AgendaItem = {
 const agenda: AgendaItem[] = [
   {
     time: "8:30 AM",
-    title: "Registration, Networking & Expo",
-    detail:
-      "Registration, networking, the Human-Centered AI Innovation Expo & Trade Fair, coffee and refreshments.",
+    title: "Registration & Networking",
+    detail: "Registration, networking, coffee and refreshments.",
   },
   {
     time: "10:00 AM",
@@ -58,6 +57,13 @@ const agenda: AgendaItem[] = [
     detail: "Navigating Transformation, Opportunity and Human Impact.",
     speaker:
       "Hosted by Dr. Selen Turner, CEO, The Turner Connection. Panelists: Dr. Camille Samuel, Campus Registrar, UWI; Adriana Madrinan, Creator of The Madrinan Playground\u2122; Ria Karim, Chairman, iGovTT",
+    highlight: true,
+  },
+  {
+    time: "12:00 PM",
+    title: "Innovation Expo & Trade Fair Opens",
+    detail:
+      "The Human-Centered AI Innovation Expo & Trade Fair floor is open from 12:00 PM to 6:00 PM. Meet the business support organizations exhibiting all afternoon.",
     highlight: true,
   },
   {
@@ -163,9 +169,9 @@ export default function Agenda() {
             Program & Agenda
           </h2>
           <p className="mt-4 max-w-2xl text-slate">
-            A full day at Barry University, from morning expo to evening
-            reception. Times and sessions may be refined as the program is
-            finalized.
+            A full day at Barry University, from morning registration to the
+            evening reception. Times and sessions may be refined as the program
+            is finalized.
           </p>
         </div>
 

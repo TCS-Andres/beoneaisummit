@@ -124,9 +124,9 @@ function People({ group }: { group: Group }) {
       <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
         {group.label}
       </p>
-      <ul className="mt-6 flex flex-wrap items-start justify-center gap-x-8 gap-y-8 sm:gap-x-10">
+      <ul className="mt-6 flex flex-wrap items-start justify-center gap-x-4 gap-y-8 sm:gap-x-10">
         {group.people.map((p) => (
-          <li key={p.name} className={big ? "w-32 sm:w-36" : "w-40"}>
+          <li key={p.name} className={big ? "w-28 sm:w-36" : "w-40"}>
             <Image
               src={p.photo}
               alt={p.name}
@@ -170,9 +170,9 @@ function Arrow({
       onClick={onClick}
       disabled={disabled}
       aria-label={dir === "prev" ? "Previous session" : "Next session"}
-      className={`items-center justify-center rounded-full border border-white/15 bg-navy/70 text-ink backdrop-blur-md transition hover:border-accent hover:text-glow disabled:opacity-25 disabled:hover:border-white/15 disabled:hover:text-ink ${className}`}
+      className={`items-center justify-center rounded-full border border-accent/60 bg-accent/85 text-white shadow-[0_6px_24px_rgba(143,76,255,0.45)] backdrop-blur-md transition hover:bg-accent hover:shadow-[0_8px_30px_rgba(143,76,255,0.6)] disabled:border-white/15 disabled:bg-navy/70 disabled:text-ink disabled:opacity-30 disabled:shadow-none ${className}`}
     >
-      <span aria-hidden className="text-lg leading-none">
+      <span aria-hidden className="text-xl leading-none">
         {dir === "prev" ? "\u2190" : "\u2192"}
       </span>
     </button>
@@ -240,7 +240,7 @@ export default function SessionsCarousel() {
                 className="w-full shrink-0 snap-center px-0.5"
                 aria-roledescription="slide"
               >
-                <article className="flex h-full flex-col justify-center rounded-2xl border border-white/10 bg-white/[0.04] px-5 py-10 text-center backdrop-blur-md sm:px-10">
+                <article className="flex h-full flex-col justify-center rounded-2xl border border-white/10 bg-white/[0.04] px-10 py-10 text-center backdrop-blur-md sm:px-12">
                   <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
                     {s.eyebrow}
                   </p>
@@ -269,24 +269,17 @@ export default function SessionsCarousel() {
             dir="prev"
             onClick={() => goTo(Math.max(0, active - 1))}
             disabled={active === 0}
-            className="absolute left-3 top-1/2 hidden h-12 w-12 -translate-y-1/2 lg:flex"
+            className="absolute left-1 top-1/2 flex h-10 w-10 -translate-y-1/2 sm:left-2 lg:left-3 lg:h-12 lg:w-12"
           />
           <Arrow
             dir="next"
             onClick={() => goTo(Math.min(slides.length - 1, active + 1))}
             disabled={active === slides.length - 1}
-            className="absolute right-3 top-1/2 hidden h-12 w-12 -translate-y-1/2 lg:flex"
+            className="absolute right-1 top-1/2 flex h-10 w-10 -translate-y-1/2 sm:right-2 lg:right-3 lg:h-12 lg:w-12"
           />
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-4">
-          <Arrow
-            dir="prev"
-            onClick={() => goTo(Math.max(0, active - 1))}
-            disabled={active === 0}
-            className="flex h-10 w-10 lg:hidden"
-          />
-
           <div className="flex items-center gap-3">
             {slides.map((s, i) => (
               <button
@@ -303,13 +296,6 @@ export default function SessionsCarousel() {
               />
             ))}
           </div>
-
-          <Arrow
-            dir="next"
-            onClick={() => goTo(Math.min(slides.length - 1, active + 1))}
-            disabled={active === slides.length - 1}
-            className="flex h-10 w-10 lg:hidden"
-          />
         </div>
 
       </div>

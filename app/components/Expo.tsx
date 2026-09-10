@@ -131,7 +131,7 @@ export default function Expo() {
       <div className="relative mx-auto max-w-6xl px-4 py-20 sm:px-6 sm:py-24">
         <div data-reveal className="text-center">
           <p className="text-xs font-semibold uppercase tracking-[0.25em] text-glow">
-            All Day · Innovation Expo &amp; Trade Fair
+            12:00 PM to 6:00 PM · Innovation Expo &amp; Trade Fair
           </p>
           <h2 className="mt-3 text-3xl font-bold sm:text-4xl">
             Meet the{" "}
