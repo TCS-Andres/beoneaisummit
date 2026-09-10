@@ -172,9 +172,20 @@ function Arrow({
       aria-label={dir === "prev" ? "Previous session" : "Next session"}
       className={`items-center justify-center rounded-full border border-accent/60 bg-accent/85 text-white shadow-[0_6px_24px_rgba(143,76,255,0.45)] backdrop-blur-md transition hover:bg-accent hover:shadow-[0_8px_30px_rgba(143,76,255,0.6)] disabled:border-white/15 disabled:bg-navy/70 disabled:text-ink disabled:opacity-30 disabled:shadow-none ${className}`}
     >
-      <span aria-hidden className="text-xl leading-none">
-        {dir === "prev" ? "\u2190" : "\u2192"}
-      </span>
+      <svg
+        aria-hidden
+        viewBox="0 0 24 24"
+        fill="none"
+        className="h-6 w-6 lg:h-7 lg:w-7"
+      >
+        <path
+          d={dir === "prev" ? "M15 5 8 12l7 7" : "M9 5l7 7-7 7"}
+          stroke="currentColor"
+          strokeWidth={3}
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+      </svg>
     </button>
   );
 }
@@ -228,7 +239,7 @@ export default function SessionsCarousel() {
         <div
           data-reveal
           style={{ transitionDelay: "120ms" }}
-          className="relative mt-12"
+          className="relative mt-12 -mx-2 sm:mx-0"
         >
           <div
             ref={trackRef}
@@ -269,13 +280,13 @@ export default function SessionsCarousel() {
             dir="prev"
             onClick={() => goTo(Math.max(0, active - 1))}
             disabled={active === 0}
-            className="absolute left-1 top-1/2 flex h-10 w-10 -translate-y-1/2 sm:left-2 lg:left-3 lg:h-12 lg:w-12"
+            className="absolute left-0 top-1/2 flex h-12 w-12 -translate-y-1/2 sm:left-2 lg:left-3 lg:h-14 lg:w-14"
           />
           <Arrow
             dir="next"
             onClick={() => goTo(Math.min(slides.length - 1, active + 1))}
             disabled={active === slides.length - 1}
-            className="absolute right-1 top-1/2 flex h-10 w-10 -translate-y-1/2 sm:right-2 lg:right-3 lg:h-12 lg:w-12"
+            className="absolute right-0 top-1/2 flex h-12 w-12 -translate-y-1/2 sm:right-2 lg:right-3 lg:h-14 lg:w-14"
           />
         </div>
 
