@@ -112,7 +112,10 @@ const agenda: AgendaItem[] = [
       {
         time: "3:15 PM",
         title: "DX Lab AI Startup Pitch Competition",
-        subtitle: "Presented by the Barry University DX Lab.",
+        subtitle:
+          "Student founders pitch live and the audience votes on the winner. Presented by the Barry University DX Lab.",
+        speaker:
+          "Fan Fever: Britney Mapang, Marco Mani, Martin Rasmussen, Jhanille Smith. MEALO: Milosz Mencel",
       },
     ],
   },
