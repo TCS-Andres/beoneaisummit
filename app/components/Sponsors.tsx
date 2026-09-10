@@ -19,6 +19,10 @@ const tiers: { tier: string; blurb: string; sponsors: Sponsor[] }[] = [
         logoClassName: "max-h-[4.5rem]",
       },
       { name: "Seacoast Bank", logo: "/sponsors/seacoast.webp" },
+      {
+        name: "City National Bank",
+        logo: "/sponsors/city-national-bank.webp",
+      },
     ],
   },
   {
@@ -30,6 +34,7 @@ const tiers: { tier: string; blurb: string; sponsors: Sponsor[] }[] = [
         name: "Dade County Federal Credit Union",
         logo: "/sponsors/dade-county-fcu.webp",
       },
+      { name: "Devin", logo: "/sponsors/devin.webp" },
     ],
   },
 ];
