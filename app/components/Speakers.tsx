@@ -43,11 +43,11 @@ const speakers: Speaker[] = [
     bio: "Christina leads digital transformation, data and analytics, and AI implementation at Embark, helping private equity-backed and mid-market companies replace fragmented, manual processes with integrated systems built on data and automation. Her background spans accounting and advisory, giving her fluency in both business strategy and technical implementation.",
   },
   {
-    name: "Luis Pagán",
-    title: "Director of Organizational Effectiveness, Branches",
+    name: "Nelson Santos",
+    title: "BSW, MSW Candidate, Barry University",
     session: "The Miami AI Debate",
-    photo: "/speakers/luis-pagan.webp",
-    bio: "Luis Pagán is Director of Organizational Effectiveness at Branches, a Miami nonprofit that partners with families to build educational and financial assets, community, and hope. He leads the organization's AI adoption on the conviction that people are the priority and technology exists so we can reclaim time for deep human connection. A natural bridge-builder guided by curiosity and wonder, he helps teams see each other clearly enough to collaborate.",
+    photo: "/speakers/nelson-santos.webp",
+    bio: "Nelson Santos, BSW, is a Master of Social Work candidate at Barry University with interests in emerging technology, social innovation, and global service. He builds AI applications that explore practical uses of emerging technology in social work and education. Nelson hopes to apply his education and experience within the international humanitarian sector.",
   },
   {
     name: "Dr. Sarah Lewis",

@@ -7,9 +7,9 @@ const debaters = [
     photo: "/speakers/christina-costanzo.webp",
   },
   {
-    name: "Luis Pagán",
-    title: "Director of Organizational Effectiveness, Branches",
-    photo: "/speakers/luis-pagan.webp",
+    name: "Nelson Santos",
+    title: "MSW Candidate, Barry University",
+    photo: "/speakers/nelson-santos.webp",
   },
   {
     name: "Dr. Sarah Lewis",

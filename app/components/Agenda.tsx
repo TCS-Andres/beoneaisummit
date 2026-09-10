@@ -49,7 +49,7 @@ const agenda: AgendaItem[] = [
     detail:
       "Munk-style debate. Motion: be it resolved, artificial intelligence will advance human flourishing more than it will diminish it.",
     speaker:
-      "Moderated by Dr. Bogdan Daraban, Dean, Andreas School of Business. Debaters: Christina Costanzo, Director, Business Transformation, Embark; Luis Pagán, Director of Organizational Effectiveness, Branches; Dr. Sarah Lewis, Founding Director, Center for Excellence in Teaching and Learning, Barry University; Sam Shaqour, Co-Founder and CEO, Patterned",
+      "Moderated by Dr. Bogdan Daraban, Dean, Andreas School of Business. Debaters: Christina Costanzo, Director, Business Transformation, Embark; Nelson Santos, MSW Candidate, Barry University; Dr. Sarah Lewis, Founding Director, Center for Excellence in Teaching and Learning, Barry University; Sam Shaqour, Co-Founder and CEO, Patterned",
     highlight: true,
   },
   {
