@@ -101,16 +101,16 @@ const slides: Slide[] = [
         label: "Team Fan Fever",
         size: "lg",
         people: [
-          { name: "Britney Mapang", photo: "/pitch/britney-mapang.webp" },
-          { name: "Marco Mani", photo: "/pitch/marco-mani.webp" },
-          { name: "Martin Rasmussen", photo: "/pitch/martin-rasmussen.webp" },
-          { name: "Jhanille Smith", photo: "/pitch/jhanille-smith.webp" },
+          { name: "Britney Mapang", photo: "/pitch/britney-mapang-v2.webp" },
+          { name: "Marco Mani", photo: "/pitch/marco-mani-v2.webp" },
+          { name: "Martin Rasmussen", photo: "/pitch/martin-rasmussen-v2.webp" },
+          { name: "Jhanille Smith", photo: "/pitch/jhanille-smith-v2.webp" },
         ],
       },
       {
         label: "Team MEALO",
         size: "lg",
-        people: [{ name: "Milosz Mencel", photo: "/pitch/milosz-mencel.webp" }],
+        people: [{ name: "Milosz Mencel", photo: "/pitch/milosz-mencel-v2.webp" }],
       },
     ],
     note: "Presented by the Barry University DX Lab.",
@@ -150,6 +150,32 @@ function People({ group }: { group: Group }) {
         ))}
       </ul>
     </div>
+  );
+}
+
+function Arrow({
+  dir,
+  onClick,
+  disabled,
+  className,
+}: {
+  dir: "prev" | "next";
+  onClick: () => void;
+  disabled: boolean;
+  className: string;
+}) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      disabled={disabled}
+      aria-label={dir === "prev" ? "Previous session" : "Next session"}
+      className={`items-center justify-center rounded-full border border-white/15 bg-navy/70 text-ink backdrop-blur-md transition hover:border-accent hover:text-glow disabled:opacity-25 disabled:hover:border-white/15 disabled:hover:text-ink ${className}`}
+    >
+      <span aria-hidden className="text-lg leading-none">
+        {dir === "prev" ? "\u2190" : "\u2192"}
+      </span>
+    </button>
   );
 }
 
@@ -239,20 +265,27 @@ export default function SessionsCarousel() {
             ))}
           </div>
 
+          <Arrow
+            dir="prev"
+            onClick={() => goTo(Math.max(0, active - 1))}
+            disabled={active === 0}
+            className="absolute left-3 top-1/2 hidden h-12 w-12 -translate-y-1/2 lg:flex"
+          />
+          <Arrow
+            dir="next"
+            onClick={() => goTo(Math.min(slides.length - 1, active + 1))}
+            disabled={active === slides.length - 1}
+            className="absolute right-3 top-1/2 hidden h-12 w-12 -translate-y-1/2 lg:flex"
+          />
         </div>
 
         <div className="mt-8 flex items-center justify-center gap-4">
-          <button
-            type="button"
+          <Arrow
+            dir="prev"
             onClick={() => goTo(Math.max(0, active - 1))}
             disabled={active === 0}
-            aria-label="Previous session"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/[0.04] text-ink backdrop-blur-md transition hover:border-accent hover:text-glow disabled:opacity-30 disabled:hover:border-white/15 disabled:hover:text-ink"
-          >
-            <span aria-hidden className="text-lg leading-none">
-              &#8592;
-            </span>
-          </button>
+            className="flex h-10 w-10 lg:hidden"
+          />
 
           <div className="flex items-center gap-3">
             {slides.map((s, i) => (
@@ -271,17 +304,12 @@ export default function SessionsCarousel() {
             ))}
           </div>
 
-          <button
-            type="button"
+          <Arrow
+            dir="next"
             onClick={() => goTo(Math.min(slides.length - 1, active + 1))}
             disabled={active === slides.length - 1}
-            aria-label="Next session"
-            className="flex h-10 w-10 items-center justify-center rounded-full border border-white/15 bg-white/[0.04] text-ink backdrop-blur-md transition hover:border-accent hover:text-glow disabled:opacity-30 disabled:hover:border-white/15 disabled:hover:text-ink"
-          >
-            <span aria-hidden className="text-lg leading-none">
-              &#8594;
-            </span>
-          </button>
+            className="flex h-10 w-10 lg:hidden"
+          />
         </div>
 
       </div>
