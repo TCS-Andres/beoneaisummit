@@ -80,10 +80,10 @@ const speakers: Speaker[] = [
   },
   {
     name: "Glenn Stansbury",
-    title: "National Channel Manager, Infobip",
+    title: "Regional Vice President, Infobip",
     session: "From Conversation to Conversion",
     photo: "/speakers/glenn-stansbury.webp",
-    bio: "Glenn Stansbury is National Channel Manager at Infobip, a global leader in omnichannel engagement powering the messaging channels, tools, and solutions behind advanced customer engagement, authentication, and security. He brings a strong record of building, expanding, and scaling channel sales organizations regionally, nationally, and globally across telecommunications, spanning startups, new market expansion, multiple distribution channels, sales process development, coaching, and people development.",
+    bio: "Glenn Stansbury is Regional Vice President for Infobip, a global leader in omnichannel engagement powering the messaging channels, tools, and solutions behind advanced customer engagement, authentication, and security. A technology and communications executive focused on AI, intelligent customer engagement, and digital transformation, he helps organizations turn emerging AI capabilities into scalable business value and growth. His expertise sits at the intersection of AI strategy, customer experience, innovation, and commercial execution.",
   },
   {
     name: "Lilia Restrepo",
