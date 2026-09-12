@@ -101,7 +101,7 @@ const exhibitors: Exhibitor[] = [
     name: "CareerSource South Florida",
     logos: ["/expo/careersource.webp"],
     blurb:
-      "The regional workforce development board for Miami-Dade and Monroe Counties, connecting job seekers and employers at no cost through career centers, skills training, recruitment, and job placement.",
+      "CareerSource South Florida delivers state and federally funded workforce development programs in Miami-Dade County, serving employers and job seekers with employment services, business incentives, labor market information, and training for economically disadvantaged adults, youth, dislocated workers, individuals transitioning from welfare to work, and refugees. Every service is free to everyone through a network of centers across the region.",
   },
   {
     name: "Miami-Dade Economic Advocacy Trust",

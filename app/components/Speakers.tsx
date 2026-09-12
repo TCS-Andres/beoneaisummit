@@ -31,7 +31,7 @@ const speakers: Speaker[] = [
   {
     name: "Steve Arman",
     title: "Program Director, BE ONE",
-    session: "The Future We Choose: Building a Human-Centered AI Economy",
+    session: "Building a Human-Centered AI Economy: Why Human Flourishing Must Guide the AI Era",
     photo: "/speakers/steve-arman.webp",
     bio: "Steve has spent years empowering underserved entrepreneurs in Miami-Dade. As Program Director of the BE ONE business development platform within Branches Inc., he understands the unique challenges micro-businesses face and how to overcome them.",
   },

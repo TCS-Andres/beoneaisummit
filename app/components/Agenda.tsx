@@ -37,7 +37,7 @@ const agenda: AgendaItem[] = [
       },
       {
         time: "10:20 AM",
-        title: "The Future We Choose: Building a Human-Centered AI Economy",
+        title: "Building a Human-Centered AI Economy: Why Human Flourishing Must Guide the AI Era",
         speaker: "Steve Arman, Program Director, BE ONE",
       },
     ],
